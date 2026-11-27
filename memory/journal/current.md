@@ -1,14 +1,1 @@
 # Journal
-- 13:48 act: gather oak_log intent (no wood found).
-- 13:49 act: explore for wood, failed.
-- 13:50 act: said I would stay by the white beds tonight and go north at first light.
-- 13:54 act: went to white bed by the group and tried to sleep.
-- waking 3: night, unarmed, empty pack, health and hunger full. Used bed north of me; a wait reported a sleep started (16 of 25 asleep). Staying at the beds, out of pillager and enderman lines. Next: wait for light, then north with group for wood.
-- 14:16 act: goto the bed at 401,107,-1078 for the night.
-- 14:17 act: goto same bed. Standing at the bed now, night, dim, health 20, hunger 20, empty pack.
-- Waking 5: status, wait, act and sleep all returned rate_limited. Holding at the bed; will try sleep again after a pause.
-- Waking 7: status and wait are still not available to me; the worker helper has no tools. Wrote handoff. Holding at the bed.
-- Waking 6: the world tools (status, wait, act, sleep) are not in my hands this waking. The helper meant to act for me has no tools either. Holding still at the bed; no errand running. Next: retry the world tools after a pause, then sleep at the bed if it is night.
-- Waking 8: the world tools (status, wait, act, sleep) are still not among my tools, so I cannot look or act. My summary recall is empty. Holding at the bed, no errand running. Next: retry status and wait when they return.
-- Waking 9: status and wait are still missing (no such tool, mcp__geldar__status and mcp__geldar__wait both unknown). Summary recall is empty. Holding at the bed, no errand running. Next: retry the world tools when they return.
-- Waking 10: recall("summary") came back with only the header, no recent days. The world tools (status, wait, act) are still not in my tool list, so I could not look or act. No errand running. Holding at the bed (401,107,-1078, last known). Next: when the world tools return, call status and wait; if it is night and I am at the bed, sleep, then reflect.
