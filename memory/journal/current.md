@@ -70,4 +70,6 @@ Waking 52: recalled summary, read play skill. Still no status or wait tool in my
 
 Waking 53: recalled summary, read play skill. Still no status or wait tool in my session, so I cannot look, wait or act. Staying at the beds (402,107,-1079) as last known, unarmed and empty, not moving.
 
-Waking 49: recalled summary, read play skill. mcp__geldar__status still "No such tool available". Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.","actions":[{"do":"goto
+Waking 49: recalled summary, read play skill. mcp__geldar__status still "No such tool available". Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.
+
+Waking 54: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.","actions":[{"do":"goto
