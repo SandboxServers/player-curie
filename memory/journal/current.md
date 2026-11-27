@@ -7,3 +7,5 @@ Waking 15: tried the worker again for a status check and a look around. It faile
 Waking 16: tried the worker once more for status and a wait. Refused at launch again: its world tools are not matched in this session. My own session has no status, wait or act tools either. I stay at the beds, sheltered and not in known danger. Wrote the handoff note. Next waking, check the tools first.
 
 Waking 18: tried the worker for status and wait. Refused at launch: zero tools, mcp__geldar__* matches nothing. I have no status, wait or act tools myself either. Still at the beds (402,107,-1079), not moving while blocked.
+
+Waking 19: the game tool status is not in my session (no such tool). Nothing I can call moves me or reads the world. I stay at the beds and do not move while blocked.
