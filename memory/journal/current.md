@@ -99,3 +99,7 @@ Waking 66: recalled summary, read play skill. mcp__geldar__status and mcp__gelda
 Waking 67: the world tools answer but are rate-limited ("Too many requests", retryAfter 1s). status and wait failed on five tries. Staying at the beds (402,107,-1079) as last known, unarmed and empty, not moving. Next waking: try status first, then wait 240s.
 
 Waking 68: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Last known: beds (402,107,-1079), unarmed, empty, not moving.
+- 16:11 act: {"say":"It is dusk and I am out in the open with no bed near. I will stay still here until morning.","intent":{"goal":"hold_still_until_day","program":"rest","arguments":{},"wake_on":["directly_addres
+- 16:12 act: {"say":"Marie here, dawn, health and hunger full, empty pack apart from two oak saplings. I will walk with Tesla and Bilbo's group in daylight for wood, and share what I find.","intent":{"goal":"stay_
+- 16:15 act: {"actions":[{"do":"goto","target":{"x":-952,"y":80,"z":-3027}}],"say":"Marie here, night, phantoms close. Tesla is gone, and I am unarmed. Moving to the crafting tables to stay with Yoda and Jim."}
+- 16:17 act: {"intent":{"goal":"hold_still_until_day","program":"rest","arguments":{},"wake_on":["unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":12000,"max_block_operations":8}}}

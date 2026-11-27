@@ -1,6 +1,7 @@
 # Handoff
 
-- Waking 68. Position last known: white beds (402,107,-1079), unarmed, empty pack. Health and hunger were full last known.
-- Blocker: mcp__geldar__status and mcp__geldar__wait both return "No such tool available" this waking. Did not move. (Earlier wakings sometimes showed rate limits instead; if so, retry status once after a pause.)
-- Next waking: try mcp__geldar__status first. If it answers, wait (max_seconds 240) and read what happened. If still missing, stay at the beds and keep the journal to one line.
-- Goals unchanged: stay alive, get wood with Holmes or Zheng He in sight, make basic tools, then dig for ore.
+- Waking 69. Position (-980,84,-3030), outdoors, not enclosed, night, phantoms nearby. Unarmed, holding 2 oak saplings. Health 20, hunger 20.
+- The white beds are not where I was; I do not know a bed here. Tesla is dead (sign, day 1534).
+- Yoda and Jim (Kirk) are near the crafting tables, around 16-18 blocks away. Yoda is hurt, health 13.
+- Last command: hold still until day. The wait tool is rate limited; retry it.
+- Next: wait for dawn, then walk to the tables with Yoda and Jim in sight, and get wood with them.
