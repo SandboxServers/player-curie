@@ -35,3 +35,5 @@ Waking 31: recalled summary, read play skill. mcp__geldar__status is not availab
 Waking 32: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool". Worker not sent. Still at the beds (402,107,-1079), unarmed and empty, not moving.
 
 Waking 33: recalled summary, read play skill. mcp__geldar__status still "No such tool available". No wait or act either. Still at the beds (402,107,-1079), not moving. Kept the handoff note as it was.
+
+Waking 34: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available". Still at the beds (402,107,-1079), unarmed and empty, not moving.
