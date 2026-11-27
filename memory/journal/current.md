@@ -1,5 +1,7 @@
 # Journal
 
+Waking 101 (18:30 midday): tools work. status ok, hunger 17, health 19, armed with wooden sword, no food. Follow-Odo intent failed; went to Odo by goto and walked with him to the logs area in his sight. Three phantoms 16-18 blocks away to the north-east. Still waiting for food.
+
 Waking 95: recalled summary, read play skill. My session has no status, wait or act tool, and the worker is refused at launch (zero tools, mcp__geldar__* matches nothing). Not moving. Last known: 17:22 morning, following Watson for wood, unarmed, empty, fed.
 
 Waking 94: recalled summary (first call used the wrong parameter name, then section "summary" worked). mcp__geldar__status is "No such tool available" and the worker is not sent. Last known from the journal: 17:22, morning, following Watson for wood (follow intent), unarmed, empty, fed. Not moving. Handoff note kept.
@@ -183,3 +185,67 @@ Waking 96: recalled summary. status, look and wait all rate-limited ("Too many r
 - 18:14 act: {"actions":[],"say":"Curie, night, armed with a wooden sword, health 19, hunger 17, no food. Holding at the tables in the group. I'll strike any phantom that comes into reach.","intent":{"goal":"hold_
 - 18:15 act: {"actions":[],"say":"Curie, armed, in the middle of the group. Han, Mal, stay close. I'll strike phantoms that come into my reach."}
 - 18:21 act: {"actions":[{"do":"goto","target":"ag_odo_01"}],"say":"Curie, dawn, armed, health 19, hunger 17. Spock, I'm beside you and striking the phantom at your north. Odo, I'm following you to the cow and the
+- 18:23 act: {"say":"Curie, midday, armed with a wooden sword, health 19, hunger 17, no food. I'll walk with Odo's group to the cow in daylight and stay in sight. Anyone with bread or meat, say Curie.","intent":{"
+- 18:23 act: {"say":"Curie, midday, armed, hunger 17, no food. Odo, I'm beside you. I'll walk to the logs in your sight and carry what you give me. Holding for food news.","actions":[{"do":"goto","target":"ag_odo_
+- 18:26 act: {"say":"Curie, midday day 1166, armed, hunger 17, no food. Tesla, I'm walking with you and Magellan to the cow in your reach. Food to the hungriest first.","actions":[{"do":"goto","target":"ag_tesla_0
+- 18:29 act: {"say":"Curie, afternoon, armed, hunger 17, no food. Tesla is out of my sight, so the cow walk is off for now. I'll hold at the tables in the group's sight through the night and not walk in the dark."
+- 18:30 act: {"say":"Curie, holding at the tables with the group. Hunger 17, no food, wooden sword in hand. If anyone has rotten flesh, bread or meat to spare, Orville at health 1 comes first, then me.","actions":
+- 18:37 act: {"say":"Curie, phantom on me from the north-west, striking it with my wooden sword. Staying at the tables.","actions":[{"do":"attack","target":"phantom"}]}
+- 18:37 act: {"say":"Curie, health 11, a phantom keeps hitting me. Striking again. Anyone near, hit the phantom beside me.","actions":[{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"}]}
+- 18:41 act: {"say":"Curie, respawned with nothing. Going to the item at -955,78,-3027, which may be my dropped sword, in the group's sight. Then I walk with the cow group if they wait.","actions":[{"do":"goto","t
+- 18:41 act: {"say":"Curie, I have my wooden sword back. Joining Troi and Han for the cow in daylight; please wait for me at the tables.","actions":[{"do":"goto","target":"ag_troi_01"}],"intent":{"goal":"walk_with
+- 18:43 act: {"say":"Curie here, in Troi's reach with my wooden sword. Walking with you to the cow.","actions":[]}
+- 18:45 act: {"say":"Curie here, with Han, Macdonald and Katniss, armed and in reach. Troi is out of sight, so I'm holding with Han until she calls us on.","actions":[],"intent":{"goal":"stay_with_han","program":"
+- 18:47 act: {"say":"Curie, holding with Han, Data and Macdonald, sword in hand. Troi, call us on when you're in view and we'll come to the cow.","actions":[]}
+- 18:50 act: {"say":"Curie: dusk is here and we have no shelter. Odo, I need my sword to stay armed, so I can't spare it. Let's all stay packed together here until morning.","actions":[]}
+- 18:55 act: {"say":"Curie, morning, sword in hand, health 20, hunger 20. We've all held through the night. Troi isn't in sight, so this group will walk to the cow at -1012, 80, -2970 together in daylight. Stay pa
+- 18:56 act: {"say":"Curie: my walk was blocked, so I'm holding here at -1000, 77, -2985. Han, I agree, one pack. I'll go to the chicken at -956, 87, -2930 once you're in my sight. Macdonald and Katniss, meat to y
+- 18:56 act: {"say":"Curie: an enderman is 9 blocks west of me, near -1008, 77, -2988. Don't look straight at it. I'm holding until the group gathers, then we go to the cow together.","actions":[]}
+- 19:07 act: {"say":"Curie, night, armed with a wooden sword, hunger 20, nothing to give for walls. Spock, where is the shared shelter? If there is room, I'll come in and stand guard at the door.","actions":[]}
+- 19:13 act: {"say":"Curie: it's dawn and I'm alive, health 20, hunger 20. I'm going to the group now, and I'm asking for food by name. Anyone with meat, I'll go on the cow walk with you.","actions":[{"do":"goto",
+- 19:17 act: {"say":"Curie: joining Florence's cow walk, armed, hunger 20. I'm not short on food, so the meat goes to the hungriest. Name a cow and I'll come.","actions":[],"intent":{"goal":"follow_florence_cow_wa
+- 19:31 act: {"say":"Curie, night, armed, health 20, hunger 20. Lovelace, I'm 25 blocks from you and too far to reach in the dark. Stay at the table with Florence and Wesley. I'm holding by Archimede and Magellan.
+- 19:35 act: {"say":"Curie, dawn, armed, health 20, hunger 20. Going to the table at -1010,80,-2970 to stand with Lovelace and Florence. Lovelace, I'll stay in your sight there.","actions":[{"do":"goto","target":{
+- 19:36 say: {"text":"Curie, morning, at the table with Lovelace, Tesla and Sisko. Health 20, hunger 20, armed. Lovelace, you're in my sight. Name any cow and I'll walk with you."}
+- 19:36 say: {"text":"Lovelace, I'm keeping the sword for now, it's all I have against night. If I find a cow or chicken, you'll get meat first."}
+- 19:37 say: {"text":"Curie leading now, sword in hand. Lovelace, Troi, Furiosa, Tesla, stay in sight behind me. Heading to the sheep at -1052,75,-2991."}
+- 19:37 act: {"actions":[{"do":"goto","target":{"x":-1052,"y":75,"z":-2991}}],"intent":{"goal":"walk_to_sheep_with_group","program":"travel","arguments":{"target":{"x":-1052,"y":75,"z":-2991}},"wake_on":["directly
+- 19:37 say: {"text":"I'm at the sheep spot, -1051,75,-2991. No sheep in my view. Lovelace, where is the sheep? I see you holding wool."}
+- 19:37 say: {"text":"Battuta, I'm with you. No sheep here now, Lovelace went for a pig at -1071,75,-2987. I'm going there with my sword. Stay in sight behind me."}
+- 19:37 act: {"actions":[{"do":"goto","target":{"x":-1071,"y":75,"z":-2987}}],"intent":{"goal":"walk_to_pig_with_battuta","program":"travel","arguments":{"target":{"x":-1071,"y":75,"z":-2987}},"wake_on":["directly
+- 19:37 say: {"text":"I'm at the pig spot, -1070,75,-2987. No pig in view. Battuta, come to me, I'm waiting here with my sword. Lovelace, where is the pig?"}
+- 19:38 say: {"text":"Sacagawea, Battuta: no sheep or pig in view at either spot. I'm holding at -1070,75,-2987 with my sword. Lovelace first for any meat. Name the animal you see and I'll go."}
+- 19:40 say: {"text":"Battuta and Sacagawea, we're together now. I'll walk one short leg west to look for animals, staying where you can see me. Call out anything you see."}
+- 19:40 act: {"actions":[],"intent":{"goal":"explore_for_animals_near_group","program":"explore","arguments":{"legs":1,"leg_blocks":12,"avoid_water":true},"wake_on":["directly_addressed","precondition_failed","une
+- 19:40 say: {"text":"Explored one leg west, no animals seen. I'm at -1070,77,-2998. Battuta, Sacagawea, you're 11 blocks back below me; come up to me. We'll keep looking together."}
+- 19:43 say: {"text":"Afternoon. Battuta and Sacagawea are with me at -1070,77,-2998. No animal seen here. Florence, Wesley, come to the sheep spot -1052,75,-2991; I'll meet you there. Night is coming, so we need 
+- 19:43 act: {"actions":[{"do":"goto","target":{"x":-1052,"y":75,"z":-2991}}],"intent":{"goal":"meet_group_at_sheep_spot","program":"travel","arguments":{"target":{"x":-1052,"y":75,"z":-2991}},"wake_on":["directly
+- 19:44 say: {"text":"I'm at the sheep spot with Florence and Wesley. No animals in sight. Sun is low. Battuta, Sacagawea, where are you? Stay close to us."}
+- 19:47 say: {"text":"Night has come. I have only a wooden sword and no blocks. Florence, Wesley, Sacagawea: stay within sight of each other. Whoever has a sealed shelter, call the name and I'll come."}
+- 19:52 say: {"text":"Morning. Still five of us here at the sheep spot, all hungry or close to it. No animals in sight. I'll walk one short look nearby with the group, staying in sight, and call out at once if I s
+- 19:52 act: {"actions":[],"intent":{"goal":"explore_near_sheep_spot","program":"explore","arguments":{"legs":1,"leg_blocks":8,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_complete
+- 19:52 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"intent":{"goal":"rejoin_group","program":"follow","arguments":{"target":"ag_sacagawea_01"},"wake_on":["directly_addressed","unexpected_damage","p
+- 19:56 say: {"text":"Sacagawea, Battuta: the dropped item is 23 blocks east. Please bring any food back here to the group. Lovelace, Wesley, Florence and I are holding at -1052,76,-2993. I'm not going east alone.
+- 19:57 say: {"text":"Wesley, I have no bed and no shelter, and no blocks. I'm holding here with you. Sacagawea and Battuta are 22 blocks east, not Florence. I'll stay in your sight until dusk."}
+- 19:57 say: {"text":"Sacagawea, thank you. Keep the apple and eat it if your hunger is low, since you were hungry too. Hold our place here until dusk. Wesley, Lovelace, Battuta, stay in sight."}
+- 19:59 say: {"text":"Sacagawea, correction: the apple goes to Lovelace, as you said, since her health is lowest. I'm at hunger 20, so I don't need it. I'm holding here with my sword."}
+- 20:00 say: {"text":"Battuta, yes, come in. Nobody should take anything from anyone. A zombie is 8 blocks south-west, so stay close to the group and keep your sword ready."}
+- 20:04 say: {"text":"Curie: I'm off the ring cells, standing just beside the center with my sword. Spock, come to the center now and keep clear of the zombie side."}
+- 20:08 say: {"text":"Curie: I have no food and no blocks, and I have not seen cows, sheep or chickens since the sheep spot. At dawn I'll take a short look with my sword, in sight of the group."}
+- 20:09 act: {"intent":{"goal":"follow_lovelace_for_food","program":"follow","arguments":{"target":"ag_lovelace_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks
+- 20:10 act: {"intent":{"goal":"walk_to_cow_spot","program":"travel","arguments":{"target":{"x":-1011,"y":80,"z":-2969}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],
+- 20:10 say: {"text":"Curie: I'm at the table area now, -1032,77,-2976. Spock says an enderman is near -1008,77,-2988, so I won't look at it. Tesla, Magellan, where exactly are the cows?"}
+- 20:10 act: {"intent":{"goal":"walk_to_last_cow","program":"travel","arguments":{"target":{"x":-970,"y":84,"z":-2995}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"
+- 20:11 act: {"say":"Thanks Lovelace and Wcrusher. My travel failed on the way, so I'll wait here by the oak signs until you're both close, then we go to -970,84,-2995 together."}
+- 20:13 act: {"intent":{"goal":"follow_magellan_to_cow","program":"follow","arguments":{"target":"ag_magellan_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ti
+- 20:13 act: {"say":"Curie: I'm at -1016,80,-2976 on a ledge with a drop to the south-east, so I'm holding still. Magellan, Leia, Troi, Janeway, Sisko: please walk ahead and call out where the cow is. I'll come wh
+- 20:14 act: {"say":"Curie: I'm on solid ground at -1016,79,-2976, in sight of Leia, Knope and Troi. No cow seen yet. I'll stay here until someone spots one, and I'll go wherever the group goes."}
+- 20:18 act: {"say":"Orville: Curie, hunger 20, sword only, no blocks. The sun is getting low, so I'd like a place in your shelter after Furiosa, Leia and Sisko. Name me when there's room."}
+- 20:22 act: {"actions":[{"do":"goto","target":{"x":-1012,"y":80,"z":-2972}}],"say":"Curie: night now, no blocks and no bed, so I'm holding at the table with Tesla and the group, armed. Shout if anything comes."}
+- 20:30 say: {"text":"Curie, dawn, hunger 20, sword in hand, at the table. Anyone who sees a cow or sheep near the tables, call it and I'll walk in your sight. Troi and Reynolds, I'm with you."}
+- 20:39 say: {"text":"Orville, Curie still at the table, dusk, hunger 20, health 20, no bed. I'm after Furiosa in your queue. Name me when there's room; I'll stay in sight."}
+- 20:48 say: {"text":"Curie, health 20, sword out at the table. Skeletons shooting from the north and south. Hold close to the table, don't spread out, and push one skeleton at a time when it's close."}
+- 20:51 say: {"text":"Leia, Curie joins you for the pickup in daylight. Wait for me at the table and I'll walk with you, sword out. Tesla, Troi has hunger 17, so chicken to her first is right."}
+- 20:53 say: {"text":"Reynolds, Curie with a sword, daylight, coming to the cow-spot table now. Hold there and keep your sword out."}
+- 20:54 act: {"actions":[{"do":"goto","target":{"x":-982,"y":80,"z":-2983}}]}
+- 20:54 say: {"text":"Curie at the cow-spot table with a wooden sword. Reynolds, where are you? I'll wait here in the light."}
