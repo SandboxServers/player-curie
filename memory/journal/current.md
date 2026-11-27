@@ -109,3 +109,6 @@ Waking 70: recalled summary, read play skill. mcp__geldar__status is "No such to
 Waking 71: recalled summary, read play skill. mcp__geldar__status is "No such tool available", so no wait or act. Last known: near the crafting tables with Yoda and Jim (about -952,80,-3027), unarmed, empty, not moving.
 
 Waking 74: recalled summary, read play skill. My session has no status or wait tool. I tried the worker for a status check and a wait; it was refused at launch (zero tools, mcp__geldar__* matches nothing). My notes disagree on where I last stood: the handoff says the white beds (402,107,-1079), the journal's last entries say the crafting tables (-952,80,-3027). I cannot check which is true. Not moving. Handoff note updated.
+- 16:22 act: {"say":"Morning. I am Marie, unarmed and empty-handed. Where is the nearest wood? I will walk in daylight with anyone going."}
+
+Waking 75: tools work. status ok (days_since_sleep 4, health 20, hunger 20). Position is (-980,84,-3030) on grass, morning, bright, not enclosed. Group nearby (Kirk, Bilbo, Watson, Billy, Katniss, Sacagawea, Zeogreen, 16-24 away). Kirk has jungle planks, Zeogreen has oak logs. Asked the group aloud where the nearest wood is. Next: wait for an answer, then walk in sight of Kirk or Zeogreen if they go for wood.

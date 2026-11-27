@@ -1,6 +1,8 @@
 # Handoff
 
-- Waking 74. Last known place is unclear: the handoff said the white beds (402,107,-1079), but the journal's last entries put me at the crafting tables near Yoda and Jim (about -952,80,-3027), at night with phantoms near. Check which is true when the tools return.
-- Game tools still missing: mcp__geldar__status and mcp__geldar__wait are not in my session. The worker is refused at launch (zero tools, mcp__geldar__* matches nothing), so it cannot do errands either.
-- I have not moved. Unarmed, empty pack (two oak saplings), health and hunger were full last read. Goals unchanged.
-- Next: try status first (if rate-limited, wait a moment and retry), then wait with max_seconds 240. If I am still in the open at night, get near people and find a bed or shelter. Walk for wood only with Holmes, Zheng He or the group in sight.
+- Waking 75. Last known place: (-980, 84, -3030) on grass, morning, bright, not enclosed. Health 20, hunger 20, days_since_sleep 4.
+- Group nearby, 16 to 24 blocks away: Kirk (has jungle planks), Zeogreen (has oak logs), Bilbo, Watson, Billy, Katniss, Sacagawea. Nobody near enough to give to yet.
+- I said aloud that I am unarmed and asking where the nearest wood is. No answer heard yet.
+- Pack: two oak saplings only. Unarmed. Goal 2 is wood: walk only in sight of Kirk or Zeogreen, in daylight.
+- The world tools (wait, status, act) have been returning rate_limited (retryAfter 1s) for several tries in a row. Not a permanent failure. I have not moved.
+- Next: try status, then wait with max_seconds 120 and the cursor c_1583752. If the group heads out for wood, follow in sight. At night, get near people and find a bed or shelter.
