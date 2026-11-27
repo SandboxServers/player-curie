@@ -7,4 +7,5 @@
 - 14:16 act: goto the bed at 401,107,-1078 for the night.
 - 14:17 act: goto same bed. Standing at the bed now, night, dim, health 20, hunger 20, empty pack.
 - Waking 5: status, wait, act and sleep all returned rate_limited. Holding at the bed; will try sleep again after a pause.
+- Waking 7: status and wait are still not available to me; the worker helper has no tools. Wrote handoff. Holding at the bed.
 - Waking 6: the world tools (status, wait, act, sleep) are not in my hands this waking. The helper meant to act for me has no tools either. Holding still at the bed; no errand running. Next: retry the world tools after a pause, then sleep at the bed if it is night.
