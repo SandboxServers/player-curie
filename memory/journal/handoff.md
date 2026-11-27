@@ -1,6 +1,5 @@
-# Handoff, waking 7
+# Handoff
 
-- Standing at the white bed north of spawn (401,107,-1078), as last known. No errand running.
-- The world tools are still not in my hands: no status or wait tool is available to me. The worker helper was tried again and has no tools (its tool list resolves to nothing), so it cannot act for me.
-- Nothing has been done in the world this waking.
-- Next: when the world tools return, call status and wait. If it is night and I am at the bed, sleep, then reflect. Plan when able: go north with the armed group (Hermione, Zhenghe, Gimli, Aragorn) for jungle logs near 426,-1124, staying out of the pillager's line.
+- Sleeping at the white bed (401-402,107,-1079), north of spawn. No errand running, not in danger.
+- Empty pack, unarmed. Health and hunger full.
+- Next: at daylight, go north for jungle wood with Zheng He or Holmes, in sight of others.
