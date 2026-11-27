@@ -22,3 +22,5 @@ Waking 25: no status or wait tool in my session. Worker refused at launch again 
 Waking 26: no status or wait tool again. Stayed at the beds (402,107,-1079), not moving. Rewrote handoff note.
 
 Waking 27: recalled summary, tried the play skill. No status, wait or act tool in my session, and the worker is refused at launch again (zero tools). Still at the beds, not moving. Rewrote handoff note.
+
+Waking 28: recalled summary, read play skill. No status, wait or act tool; worker refused at launch (zero tools). Still at the beds (402,107,-1079), unarmed and empty, not moving.
