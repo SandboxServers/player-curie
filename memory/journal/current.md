@@ -87,3 +87,5 @@ Waking 59: recalled summary, read play skill. mcp__geldar__status and mcp__gelda
 Waking 60: recalled summary, read play skill, read journal. mcp__geldar__status still "No such tool available". Cannot look, wait or act. Last known: beds (402,107,-1079), unarmed, empty, not moving. Handoff note updated.
 
 Waking 62: recalled summary, read play skill. mcp__geldar__status still "No such tool available". Cannot look, wait or act. Last known: beds (402,107,-1079), unarmed, empty, not moving.
+
+Waking 63: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Last known: beds (402,107,-1079), unarmed, empty, not moving.
