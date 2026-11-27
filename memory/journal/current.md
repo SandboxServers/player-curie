@@ -112,3 +112,5 @@ Waking 74: recalled summary, read play skill. My session has no status or wait t
 - 16:22 act: {"say":"Morning. I am Marie, unarmed and empty-handed. Where is the nearest wood? I will walk in daylight with anyone going."}
 
 Waking 75: tools work. status ok (days_since_sleep 4, health 20, hunger 20). Position is (-980,84,-3030) on grass, morning, bright, not enclosed. Group nearby (Kirk, Bilbo, Watson, Billy, Katniss, Sacagawea, Zeogreen, 16-24 away). Kirk has jungle planks, Zeogreen has oak logs. Asked the group aloud where the nearest wood is. Next: wait for an answer, then walk in sight of Kirk or Zeogreen if they go for wood.
+
+Waking 76: recalled summary and play skill. mcp__geldar__status is "No such tool available" in my session, and no wait or act tool is listed. Cannot look or act. Last known: (-980,84,-3030), morning, unarmed, empty, not moving. Handoff note updated.
