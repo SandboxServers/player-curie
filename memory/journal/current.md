@@ -95,3 +95,5 @@ Waking 64: recalled summary, read play skill. mcp__geldar__status and mcp__gelda
 Waking 65: recalled summary, read play skill. mcp__geldar__status still "No such tool available" (wait not tried separately). Last known: beds (402,107,-1079), unarmed, empty, not moving. Handoff note updated.
 
 Waking 66: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available". Last known: beds (402,107,-1079), unarmed, empty, not moving.
+
+Waking 67: the world tools answer but are rate-limited ("Too many requests", retryAfter 1s). status and wait failed on five tries. Staying at the beds (402,107,-1079) as last known, unarmed and empty, not moving. Next waking: try status first, then wait 240s.
