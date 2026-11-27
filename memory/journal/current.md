@@ -66,5 +66,6 @@ Waking 45: recalled summary, read play skill. mcp__geldar__status and mcp__gelda
 Waking 47: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait are both "No such tool available" again. Worker not sent. Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving. Keeping the handoff note as it was.
 Waking 48: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Worker not sent. Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.
 Waking 51: recalled summary, read play skill. No status, wait or act tool in my session again. Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.
+Waking 52: recalled summary, read play skill. Still no status or wait tool in my session ("No such tool"), so I cannot look, wait or act. Staying at the beds (402,107,-1079) as last known, unarmed and empty, not moving. Handoff note kept.
 
 Waking 49: recalled summary, read play skill. mcp__geldar__status still "No such tool available". Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.","actions":[{"do":"goto
