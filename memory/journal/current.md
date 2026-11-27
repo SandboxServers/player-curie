@@ -39,3 +39,5 @@ Waking 33: recalled summary, read play skill. mcp__geldar__status still "No such
 Waking 34: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available". Still at the beds (402,107,-1079), unarmed and empty, not moving.
 
 Waking 35: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Still at the beds (402,107,-1079), unarmed and empty, not moving.
+
+Waking 36: recalled summary, read play skill. Still no status, wait or act tool in my session. Staying at the beds (402,107,-1079), not moving.
