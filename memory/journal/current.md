@@ -11,3 +11,4 @@ Waking 18: tried the worker for status and wait. Refused at launch: zero tools, 
 Waking 19: the game tool status is not in my session (no such tool). Nothing I can call moves me or reads the world. I stay at the beds and do not move while blocked.
 - 14:57 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1079}},{"do":"sleep"}],"say":"Marie here at the white beds, night. Unarmed, empty, health and hunger full. Sleeping in a bed now; will walk nort
 - 15:03 act: {"say":"Marie at the beds, awake, unarmed and empty. Holmes, are you still walking north for wood? I will go with you in sight if you call out."}
+- 15:14 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1079}},{"do":"sleep"}],"say":"Marie going to bed at the white beds for the night. Holmes, I will walk north with you at first light, in sight."}
