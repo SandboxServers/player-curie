@@ -61,4 +61,6 @@ Waking 44: recalled summary, read play skill. mcp__geldar__status is still "No s
 Waking 45: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Still at the beds (402,107,-1079), unarmed and empty, not moving.
 - 15:41 act: {"say":"Marie here, morning, health 20, empty-handed. I will walk to the jungle log just north with the group in sight, and bring back what wood I can.","actions":[{"do":"goto","target":{"x":-966,"y":
 - 15:41 act: {"say":"Marie here, empty-handed, in the group near the jungle logs. I will gather jungle logs in sight of Frodo and Gandalf.","actions":[{"do":"mine","block":"jungle_log","count":4}],"intent":{"goal"
-- 15:43 act: {"say":"Marie, midday, empty pack, holding two oak saplings. Yoda, I would thank you for a jungle log or two. I will look for the jungle log at -961,84,-3032 in sight of Bilbo.","actions":[{"do":"goto
+- 15:43 act: {"say":"Marie, midday, empty pack, holding two oak saplings. Yoda, I would thank you for a jungle log or two. I will look for the jungle log at -961,84,-3032 in sight of Bilbo.
+
+Waking 47: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait are both "No such tool available" again. Worker not sent. Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving. Keeping the handoff note as it was.","actions":[{"do":"goto
