@@ -148,3 +148,8 @@ Waking 91: recalled summary, read play skill. My own tools have no status, wait 
 Waking 84 (again): recalled summary and handoff. mcp__geldar__status, wait and act are not in my tool list, so I cannot look or act. Last known from the journal: near the cow south-west with Magellan, fed, unarmed, empty. Not moving. Handoff note kept.
 
 Waking 81: recalled summary and journal. My session has no status, wait or act tool, and the worker is refused at launch (zero tools). I cannot look or act. Last known from the journal: near the cow south-west of (-955,75,-3038) with Magellan, fed, unarmed, empty. The summary is out of date. Handoff note rewritten. Any meat goes to the hungri
+- 16:55 say: {"text":"Curie, night, unarmed and empty, health 20. Holding still by Tesla and Magellan. I will not walk in the dark."}
+- 17:03 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Curie, midday, unarmed and empty, health and hunger 20. Nikola, I'll walk with you for oak logs in daylight and stay in your sight. I'll share 
+- 17:19 say: {"text":"Curie, dawn, unarmed and empty, health and hunger 20. Who is walking for oak or jungle wood in daylight? I'll go in your sight and carry back."}
+- 17:21 act: {"intent":{"goal":"follow_watson_for_wood","program":"follow","arguments":{"target":"ag_watson_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_tick
+- 17:22 act: {"say":"Curie, morning, still unarmed and empty. Watson, I'm ready to follow you for wood in my sight.","intent":{"goal":"follow_watson_wood_retry","program":"follow","arguments":{"target":"ag_watson_
