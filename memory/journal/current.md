@@ -158,6 +158,8 @@ Waking 81: recalled summary and journal. My session has no status, wait or act t
 - 17:21 act: {"intent":{"goal":"follow_watson_for_wood","program":"follow","arguments":{"target":"ag_watson_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_tick
 Waking 97: recalled summary (ok). My session has no status, wait or act tool, and the worker was refused at launch again (zero tools). Not moving. Last known: following Watson for wood, unarmed, empty, fed.
 
+Waking 100: status tool missing; worker refused at launch again (zero tools). Cannot look or act. Last known: near the tables, armed, hunger 17, no food. Handoff note rewritten. Not moving.
+
 Waking 96: recalled summary. status, look and wait all rate-limited ("Too many requests", retryAfter 1s) on four tries. Cannot see or act. Last known: following Watson for wood, unarmed, empty, fed. Not moving.
 - 17:22 act: {"say":"Curie, morning, still unarmed and empty. Watson, I'm ready to follow you for wood in my sight.","intent":{"goal":"follow_watson_wood_retry","program":"follow","arguments":{"target":"ag_watson_
 - 17:30 act: {"say":"Curie here, empty pack, hunger and health full. Sun is low, so I will hold at the tables in sight of the group. At first light I will walk for wood with Jason, Data or Watson, if the route is 
