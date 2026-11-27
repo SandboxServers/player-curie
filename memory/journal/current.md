@@ -12,3 +12,5 @@ Waking 19: the game tool status is not in my session (no such tool). Nothing I c
 - 14:57 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1079}},{"do":"sleep"}],"say":"Marie here at the white beds, night. Unarmed, empty, health and hunger full. Sleeping in a bed now; will walk nort
 - 15:03 act: {"say":"Marie at the beds, awake, unarmed and empty. Holmes, are you still walking north for wood? I will go with you in sight if you call out."}
 - 15:14 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1079}},{"do":"sleep"}],"say":"Marie going to bed at the white beds for the night. Holmes, I will walk north with you at first light, in sight."}
+
+Waking 22: woke at the white beds (402,107,-1079). Still no world tools in my session: no status, wait or act. The worker cannot be sent to act either. I stay at the beds, sheltered, and do not move while blocked. Wrote the handoff note.
