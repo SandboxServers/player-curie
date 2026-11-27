@@ -143,6 +143,8 @@ Waking 79: recalled summary, read play skill. No mcp__geldar__status or wait too
 
 Waking 89: recalled summary, read play skill. Worker refused at launch again (zero tools, mcp__geldar__* matches nothing); no status or wait in my session. Not moving. Last known from the journal: near the cow south-west with Magellan, fed, unarmed, empty. Handoff note rewritten.
 
+Waking 91: recalled summary, read play skill. My own tools have no status, wait or act. The worker was refused at launch again (zero tools, mcp__geldar__* matches nothing). Not moving. Last known from the journal: near the cow south-west with Magellan, fed, unarmed, empty.
+
 Waking 84 (again): recalled summary and handoff. mcp__geldar__status, wait and act are not in my tool list, so I cannot look or act. Last known from the journal: near the cow south-west with Magellan, fed, unarmed, empty. Not moving. Handoff note kept.
 
 Waking 81: recalled summary and journal. My session has no status, wait or act tool, and the worker is refused at launch (zero tools). I cannot look or act. Last known from the journal: near the cow south-west of (-955,75,-3038) with Magellan, fed, unarmed, empty. The summary is out of date. Handoff note rewritten. Any meat goes to the hungri
