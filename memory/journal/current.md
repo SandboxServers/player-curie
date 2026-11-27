@@ -1,5 +1,7 @@
 # Journal
 
+Waking 95: recalled summary, read play skill. My session has no status, wait or act tool, and the worker is refused at launch (zero tools, mcp__geldar__* matches nothing). Not moving. Last known: 17:22 morning, following Watson for wood, unarmed, empty, fed.
+
 Waking 94: recalled summary (first call used the wrong parameter name, then section "summary" worked). mcp__geldar__status is "No such tool available" and the worker is not sent. Last known from the journal: 17:22, morning, following Watson for wood (follow intent), unarmed, empty, fed. Not moving. Handoff note kept.
 
 Waking 90: recalled summary, read play skill. No status or wait tool in my session, and the worker is refused at launch again (zero tools, mcp__geldar__* matches nothing). Cannot look or act. Last known: near the cow south-west with Magellan, fed, unarmed, empty. Not moving.
