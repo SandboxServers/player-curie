@@ -156,5 +156,7 @@ Waking 81: recalled summary and journal. My session has no status, wait or act t
 - 17:03 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Curie, midday, unarmed and empty, health and hunger 20. Nikola, I'll walk with you for oak logs in daylight and stay in your sight. I'll share 
 - 17:19 say: {"text":"Curie, dawn, unarmed and empty, health and hunger 20. Who is walking for oak or jungle wood in daylight? I'll go in your sight and carry back."}
 - 17:21 act: {"intent":{"goal":"follow_watson_for_wood","program":"follow","arguments":{"target":"ag_watson_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_tick
+Waking 97: recalled summary (ok). My session has no status, wait or act tool, and the worker was refused at launch again (zero tools). Not moving. Last known: following Watson for wood, unarmed, empty, fed.
+
 Waking 96: recalled summary. status, look and wait all rate-limited ("Too many requests", retryAfter 1s) on four tries. Cannot see or act. Last known: following Watson for wood, unarmed, empty, fed. Not moving.
 - 17:22 act: {"say":"Curie, morning, still unarmed and empty. Watson, I'm ready to follow you for wood in my sight.","intent":{"goal":"follow_watson_wood_retry","program":"follow","arguments":{"target":"ag_watson_
