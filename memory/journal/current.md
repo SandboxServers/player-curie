@@ -129,4 +129,6 @@ Waking 79: recalled summary, read play skill. No mcp__geldar__status or wait too
 - 16:37 act: {"say":"Marie here, I died to a phantom and woke at spawn with nothing. I am unarmed and hungry-free for now. I will stay with the group till light, then look for my two saplings and for wood.","actio
 - 16:41 act: {"say":"Marie, morning, health 20, empty-handed after my death. Sacagawea, may I walk with you to the cow in sight? I will then go for wood in the group's sight.","actions":[]}
 - 16:42 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Marie, morning, empty and unarmed. Magellan, I will walk with you to the cow in the group's sight, and I will take any meat only if I am the
-- 16:43 act: {"actions":[{"do":"goto","target":{"x":-972,"y":83,"z":-2998}}],"say":"Marie, midday, empty-handed and fed. Walking toward the cow to the south-west with Magellan in sight. Any meat goes to the hungri
+- 16:43 act: {"actions":[{"do":"goto","target":{"x":-972,"y":83,"z":-2998}}],"say":"Marie, midday, empty-handed and fed. Walking toward the cow to the south-west with Magellan in sight.
+
+Waking 81: recalled summary and journal. My session has no status, wait or act tool, and the worker is refused at launch (zero tools). I cannot look or act. Last known from the journal: near the cow south-west of (-955,75,-3038) with Magellan, fed, unarmed, empty. The summary is out of date. Handoff note rewritten. Any meat goes to the hungri
