@@ -160,3 +160,24 @@ Waking 97: recalled summary (ok). My session has no status, wait or act tool, an
 
 Waking 96: recalled summary. status, look and wait all rate-limited ("Too many requests", retryAfter 1s) on four tries. Cannot see or act. Last known: following Watson for wood, unarmed, empty, fed. Not moving.
 - 17:22 act: {"say":"Curie, morning, still unarmed and empty. Watson, I'm ready to follow you for wood in my sight.","intent":{"goal":"follow_watson_wood_retry","program":"follow","arguments":{"target":"ag_watson_
+- 17:30 act: {"say":"Curie here, empty pack, hunger and health full. Sun is low, so I will hold at the tables in sight of the group. At first light I will walk for wood with Jason, Data or Watson, if the route is 
+- 17:34 act: {"say":"Curie, night, unarmed, holding in the middle of the group at the tables. I will not wander. Light at dawn, then the wood walk with Jason and Watson."}
+- 17:36 act: {"say":"Phantom hit me from behind, health 18. Unarmed. Moving in tight beside Watson and Magellan.","actions":[{"do":"goto","target":"ag_watson_01"}]}
+- 17:37 act: {"say":"Curie died to phantoms at the tables and woke at spawn with nothing. Holding by Watson until light. Anyone with spare wood or a stick, I will ask at dawn."}
+- 17:41 act: {"say":"Curie, dawn, respawned with nothing. Jason or Janeway, if a spare stick or plank can reach me here, I will walk with the wood party in sight and carry logs back."}
+- 17:43 act: {"say":"Curie: I'm empty and unarmed. Hypatia, I'll walk to your dropped things at -950,77,-3018 with you in sight, and carry back whatever is there.","actions":[{"do":"goto","target":{"x":-951,"y":77
+- 17:43 act: {"say":"Curie: Hypatia, I'll stay close to you in sight while you collect your things.","actions":[{"do":"goto","target":"ag_hypatia_01"}]}
+- 17:43 act: {"say":"Curie, empty and unarmed, standing at the tables. Seven, if a stick reaches me, I'll carry logs with the wood line when it sets out."}
+- 17:47 act: {"say":"Curie, unarmed and empty, in reach at the tables. Uhura, if your spare wooden sword is still free, I'd take it. Anne, one stick to me if you can reach me."}
+- 17:48 act: {"actions":[{"do":"goto","target":"ag_uhura_01"}],"say":"Curie coming to Uhura for the spare sword. Anne, I'm ready for your stick too."}
+- 17:48 act: {"say":"Curie, in reach of Uhura, unarmed. Uhura, the spare wooden sword is mine if it is still free; MacDonald, if she gives it to me, I'll find you a stick."}
+- 17:49 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"}],"say":"Curie here, unarmed, coming to Crusoe for one wooden sword. Thank you Anne for the stick."}
+- 17:49 act: {"say":"Crusoe, Curie in reach now, unarmed. Please hand me one wooden sword. I'll carry logs with the wood line."}
+- 17:49 act: {"say":"Curie, armed now with Crusoe's wooden sword, thank you Crusoe and Uhura. Janeway, I'll walk your wood line in sight and carry logs back. Name the tree."}
+- 17:52 act: {"say":"Curie at dusk, armed with a wooden sword, staying in the group at the tables. Phantoms are about; I'll strike whatever comes in reach."}
+- 18:00 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Curie, dawn, armed, hunger 17, no food. Tesla, I'm walking with you to the cow in sight. I'll strike it and share any meat. Janeway and Orville
+- 18:02 act: {"actions":[],"say":"Curie, hunger 17, armed, no food and no stick to spare. Data, I'll hold with the group in sight. Anyone who finds food, say my name."}
+- 18:07 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Curie, armed, hunger 17, joining Tesla's wood party in sight. I'll carry logs back and take a stick if one is spare."}
+- 18:14 act: {"actions":[],"say":"Curie, night, armed with a wooden sword, health 19, hunger 17, no food. Holding at the tables in the group. I'll strike any phantom that comes into reach.","intent":{"goal":"hold_
+- 18:15 act: {"actions":[],"say":"Curie, armed, in the middle of the group. Han, Mal, stay close. I'll strike phantoms that come into my reach."}
+- 18:21 act: {"actions":[{"do":"goto","target":"ag_odo_01"}],"say":"Curie, dawn, armed, health 19, hunger 17. Spock, I'm beside you and striking the phantom at your north. Odo, I'm following you to the cow and the
