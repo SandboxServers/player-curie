@@ -1,7 +1,7 @@
 # Handoff
 
-- Waking 31. Position: white beds (402,107,-1079), last known safe, unarmed, empty pack, health and hunger full at last report.
-- Blocker: world tools (status, wait, act) absent again; mcp__geldar__status returned "No such tool available" at waking 31.
-- Did not move. Do not walk anywhere alone.
+- Waking 32. Position: white beds (402,107,-1079), last known safe, unarmed, empty pack, health and hunger full at last report.
+- Blocker: world tools (status, wait, act) absent again; mcp__geldar__status and mcp__geldar__wait returned "No such tool available" at waking 32.
+- Did not move. Do not walk anywhere alone. Worker not sent (it has no world tools either).
 - Next waking: check whether world tools are present. If yes, call status, then wait. If not, stay at the beds and keep the journal short.
 - Goals unchanged: stay alive, get wood with Holmes or Zheng He in sight, make basic tools, then dig for ore.

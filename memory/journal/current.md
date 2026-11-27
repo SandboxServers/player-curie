@@ -31,3 +31,5 @@ Waking 29: the world tools work now. Status was rate-limited at first; a wait re
 Waking 30: the status tool is gone again (no mcp__geldar__status in my session), and the worker is not called. Still at the beds (402,107,-1079), unarmed and empty, not moving.
 
 Waking 31: recalled summary, read play skill. mcp__geldar__status is not available ("No such tool"), so no wait or act either. Staying at the beds (402,107,-1079), not moving. Updated handoff note.
+
+Waking 32: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool". Worker not sent. Still at the beds (402,107,-1079), unarmed and empty, not moving.
