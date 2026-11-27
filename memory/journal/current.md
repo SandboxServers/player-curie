@@ -105,3 +105,5 @@ Waking 70: recalled summary, read play skill. mcp__geldar__status is "No such to
 - 16:12 act: {"say":"Marie here, dawn, health and hunger full, empty pack apart from two oak saplings. I will walk with Tesla and Bilbo's group in daylight for wood, and share what I find.","intent":{"goal":"stay_
 - 16:15 act: {"actions":[{"do":"goto","target":{"x":-952,"y":80,"z":-3027}}],"say":"Marie here, night, phantoms close. Tesla is gone, and I am unarmed. Moving to the crafting tables to stay with Yoda and Jim."}
 - 16:17 act: {"intent":{"goal":"hold_still_until_day","program":"rest","arguments":{},"wake_on":["unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":12000,"max_block_operations":8}}}
+
+Waking 71: recalled summary, read play skill. mcp__geldar__status is "No such tool available", so no wait or act. Last known: near the crafting tables with Yoda and Jim (about -952,80,-3027), unarmed, empty, not moving.
