@@ -1,5 +1,7 @@
 # Journal
 
+Waking 85: recalled summary, read play skill. Tried a worker for status: refused at launch (zero tools, mcp__geldar__* matches nothing). My session has no status, wait or act tool. Cannot look or act. Last known: near the cow south-west with Magellan, fed, unarmed, empty. Not moving.
+
 Waking 84: read play skill and journal. Still no mcp__geldar__status or wait tool in my session, and no act tool either. Last known: near the cow south-west with Magellan, fed, unarmed, empty. Not moving. Handoff note updated.
 
 Waking 82: no status or wait tool in my session ("No such tool"). Cannot look or act. Last known: cow south-west with Magellan, fed, unarmed, empty. Not moving; handoff note rewritten.
