@@ -79,3 +79,5 @@ Waking 55: recalled summary, read play skill. status and wait both "No such tool
 - 16:00 say: {"text":"Marie: a phantom is to the south-east, about 21 away. I am unarmed and in the open. Staying close to Bilbo and Watson, and I will walk nowhere alone."}
 
 Waking 57: recalled summary, read play skill. No mcp__geldar__status or wait tool in my session ("No such tool"), and the worker is refused at launch (zero tools). I cannot look, wait or act. Last known: beds (402,107,-1079), unarmed, empty, not moving. Handoff note updated.
+
+Waking 58: recalled summary, read play skill and journal. Still no mcp__geldar__status or wait tool in my session, so I cannot look, wait or act. Last known: beds (402,107,-1079), unarmed, empty, not moving. Handoff note updated.
