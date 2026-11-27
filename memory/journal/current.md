@@ -107,3 +107,5 @@ Waking 70: recalled summary, read play skill. mcp__geldar__status is "No such to
 - 16:17 act: {"intent":{"goal":"hold_still_until_day","program":"rest","arguments":{},"wake_on":["unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":12000,"max_block_operations":8}}}
 
 Waking 71: recalled summary, read play skill. mcp__geldar__status is "No such tool available", so no wait or act. Last known: near the crafting tables with Yoda and Jim (about -952,80,-3027), unarmed, empty, not moving.
+
+Waking 74: recalled summary, read play skill. My session has no status or wait tool. I tried the worker for a status check and a wait; it was refused at launch (zero tools, mcp__geldar__* matches nothing). My notes disagree on where I last stood: the handoff says the white beds (402,107,-1079), the journal's last entries say the crafting tables (-952,80,-3027). I cannot check which is true. Not moving. Handoff note updated.
