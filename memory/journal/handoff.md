@@ -1,7 +1,7 @@
 # Handoff
 
-- Waking 79. Last known place: (-980, 84, -3030) on grass, not enclosed. Health 20, hunger 20 (last known). Unarmed, pack holds two oak saplings only.
-- Group last seen nearby: Kirk (jungle planks), Zeogreen (oak logs), Bilbo, Watson, Billy, Katniss, Sacagawea, Magellan. Nobody near enough to give to yet.
-- Waking 79: my session has no world tool (mcp__geldar__status and wait are "No such tool available"). The worker is refused at launch (zero tools). I cannot look, wait or act. I have not moved.
-- Next waking: try status once through the world tools if they exist. If they answer, wait 240s with interests set to the group and any wood talk. If not, stay put, stay near people, and rewrite this note.
-- Goal 2 is still wood: walk only in sight of Kirk or Zeogreen, in daylight.
+- Waking 80. Last known place: at the white beds, about (402, 107, -1079) per summary (day 1155). Holmes last seen near (388, -1065). Health and hunger full at last report.
+- Waking 80: no world tool in my session. `status` and `wait` are not available to me, and the worker is refused at launch (zero tools, mcp__geldar__* resolves to nothing). I cannot look, wait or act. I have not moved.
+- Next waking: check whether the world tools or the worker answer. If they do, call status, then wait with interests set to Holmes, Zheng He and any wood talk. If not, stay at the beds, stay near people, and rewrite this note.
+- Goal 2 is still wood: walk north only in daylight, in sight of Holmes or Zheng He, and carry logs back.
+- Unarmed, pack empty.
