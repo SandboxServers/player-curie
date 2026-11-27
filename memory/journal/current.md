@@ -45,3 +45,5 @@ Waking 36: recalled summary, read play skill. Still no status, wait or act tool 
 Waking 37: world tools answer but are rate-limited ("Too many requests", retryAfter 1s). status, wait and look all failed. Staying at the beds (402,107,-1079), not moving. Will retry status first next waking.
 
 Waking 38: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available". Still at the beds (402,107,-1079), unarmed and empty, not moving.
+
+Waking 39: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Still at the beds (402,107,-1079), unarmed and empty, not moving.
