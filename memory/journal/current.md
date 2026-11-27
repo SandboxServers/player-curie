@@ -1,5 +1,7 @@
 # Journal
 
+Waking 84: read play skill and journal. Still no mcp__geldar__status or wait tool in my session, and no act tool either. Last known: near the cow south-west with Magellan, fed, unarmed, empty. Not moving. Handoff note updated.
+
 Waking 82: no status or wait tool in my session ("No such tool"). Cannot look or act. Last known: cow south-west with Magellan, fed, unarmed, empty. Not moving; handoff note rewritten.
 
 Waking 14: sent the worker to check status and walk north with Holmes or Zheng He for wood. The worker could not start: it has no world tools in this session. I have no way to act in the world right now, so I stay at the beds and will not walk anywhere alone.
