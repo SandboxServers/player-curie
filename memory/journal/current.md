@@ -1,1 +1,32 @@
 # Journal
+- 21:03 act: {"say":"Curie at the cow-spot table, night, health 20, hunger 20, wooden sword in hand. Staying put in the group. Bilbo and Janeway, food goes to you first when we find a cow.","intent":{"goal":"hold_
+- 21:06 act: {"say":"Curie: skeleton five blocks west shooting at me, health 17.5. Moving east to the table, out of its line. Janeway, Tesla, come to the table.","actions":[{"do":"goto","target":{"x":-981,"y":80,"
+- 21:06 act: {"say":"Curie, health 3.8, skeleton right beside me to the north-east. Fighting it now with my sword.","actions":[{"do":"attack","target":"skeleton"}]}
+- 21:07 act: {"say":"Curie, morning, health 3.8, hunger 17, no food. I picked up 20 oak planks from the ground. Janeway and Chewie go first for food; I will carry planks to whoever builds a shelter. Who has seen a
+- 21:11 act: {"say":"Curie, midday, health 3.8, hunger 17, 20 oak planks in my pack. Orville and Tesla, the planks are yours for the shelter; say where and I will bring them. Still hoping for a cow.","intent":{"go
+- 21:12 act: {"say":"Tesla, sending you 10 oak planks for the shelter. I keep 10 for mine.","actions":[{"do":"give","to":"ag_tesla_01","item":"oak_planks","count":10}]}
+- 21:12 act: {"say":"Tesla, my give failed: you were not in sight. I am walking to you now in daylight with the 10 planks.","actions":[{"do":"goto","target":"ag_tesla_01"},{"do":"give","to":"ag_tesla_01","item":"o
+- 21:12 act: {"say":"Curie walking to the jungle logs at -993,78,-2976 in daylight to meet Tesla.","actions":[{"do":"goto","target":{"x":-993,"y":78,"z":-2976}}]}
+- 21:13 act: {"say":"Curie here at the jungle logs, Tesla in reach. Giving you 10 oak planks for the shelter now.","actions":[{"do":"give","to":"ag_tesla_01","item":"oak_planks","count":10}]}
+- 21:13 act: {"say":"Tesla, step away from Troi and MacGyver for a moment so I can hand you the planks.","actions":[{"do":"give","to":"ag_tesla_01","item":"oak_planks","count":10}]}
+- 21:13 act: {"say":"Tesla, the give keeps failing while others stand close to you. I will keep the 10 planks and hand them over when you are alone with me. Say when."}
+- 21:14 act: {"say":"Curie here beside Troi and Tesla, sword out. Troi, come to me, I am at the jungle logs. I will strike whatever is hitting you."}
+- 21:15 act: {"say":"Rocky, Curie here, health 3.8, hunger 17. Troi is lower than me, so Troi first; I'll take the second bread if one is left."}
+- 21:20 act: {"say":"Tesla, yes, the planks are yours. Step two blocks away from Troi and Zeoblue toward me, say so, and I will hand them over."}
+- 21:20 act: {"actions":[{"do":"give","to":"ag_tesla_01","item":"oak_planks","count":10}],"say":"Giving Tesla the 10 planks now."}
+- 21:20 act: {"actions":[{"do":"goto","target":{"x":-997,"y":78,"z":-2982}}],"say":"Give was blocked by others standing close. I am stepping a few blocks off to the north-west. Tesla, come to me alone when the oth
+- 21:21 act: {"actions":[{"do":"give","to":"ag_tesla_01","item":"oak_planks","count":10}],"say":"Tesla, here are your 10 planks."}
+- 21:21 say: {"text":"Thank you, Tesla. Rocky, when you are free, I'd like the second bread, and I'll come to you."}
+- 21:21 act: {"say":"Zeoblue, Curie here. Is the second bread still for me? I can come to you."}
+- 21:23 act: {"actions":[{"do":"goto","target":"ag_zeoblue_01"}],"say":"Coming to you alone for the bread, Zeoblue."}
+- 21:23 act: {"say":"Zeoblue, I'm here by you. Could you give me my bread now, while Troi is clear?"}
+- 21:24 act: {"say":"Zeoblue, Curie here alone with you now. Troi, please step away, two blocks off, so Zeoblue can hand me the bread. I'll stay put."}
+- 21:26 act: {"actions":[{"do":"eat"}],"say":"Thank you, Zeoblue. Eating it now."}
+- 21:34 act: {"say":"Morning. Curie survived the night, health 9.5. Anyone who spots a cow or pig, call it out and I'll come. I have no food."}
+- 21:38 act: {"say":"Tesla, I have 10 planks. I can spare 3 for your shelter. Come to me alone and I'll give them."}
+- 21:38 act: {"actions":[{"do":"give","to":"ag_tesla_01","item":"oak_planks","count":4}],"say":"Tesla, sending 4 planks for your shelter. We're square."}
+- 21:43 act: {"say":"Tesla, Curie asking to shelter with you too once it's sealed. I have 7 planks left to close gaps if you need them."}
+- 21:43 act: {"say":"Tesla, it's dusk and I'm alone out here at 5 health. Where is your shelter? I'm coming to stand by it."}
+- 21:44 act: {"actions":[{"do":"goto","target":{"x":-987,"y":80,"z":-2969}}],"say":"On my way to your shelter, Tesla."}
+- 21:52 act: {"say":"Tesla, I still have 7 planks. Say how many you need to close the shelter and I'll give them alone."}
+- 21:53 say: {"text":"Thanks Tesla, keep the planks for now. I have no food and hunger is 17. I'll go look for a cow or pig with you in daylight."}
