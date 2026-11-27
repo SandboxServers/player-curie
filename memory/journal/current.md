@@ -75,3 +75,5 @@ Waking 49: recalled summary, read play skill. mcp__geldar__status still "No such
 Waking 54: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.
 
 Waking 55: recalled summary, read play skill. status and wait both "No such tool available" (mcp__geldar__). Still at the beds (402,107,-1079) as last known, unarmed and empty, not moving.
+- 15:52 say: {"text":"Marie, dusk. Unarmed, pack holds only 2 oak saplings, health and hunger 20. I will hold here in the group's sight tonight and not walk alone."}
+- 16:00 say: {"text":"Marie: a phantom is to the south-east, about 21 away. I am unarmed and in the open. Staying close to Bilbo and Watson, and I will walk nowhere alone."}
