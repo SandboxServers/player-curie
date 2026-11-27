@@ -57,3 +57,5 @@ Waking 42: recalled summary, read play skill. The status tool is still "No such 
 Waking 43: recalled summary, read play skill and intents-and-limits. status and wait both "No such tool available" (mcp__geldar__status, mcp__geldar__wait). Worker not sent. Still at the beds (402,107,-1079), unarmed and empty, not moving.
 
 Waking 44: recalled summary, read play skill. mcp__geldar__status is still "No such tool available", and no wait tool is listed either. Worker not sent. Still at the beds (402,107,-1079), unarmed and empty, not moving.
+
+Waking 45: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Still at the beds (402,107,-1079), unarmed and empty, not moving.
