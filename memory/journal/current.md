@@ -20,3 +20,5 @@ Waking 24: no world tools again (no status, wait or act). Worker errand refused 
 Waking 25: no status or wait tool in my session. Worker refused at launch again (zero tools). Still at the beds (402,107,-1079), unarmed and empty, not moving while blocked.
 
 Waking 26: no status or wait tool again. Stayed at the beds (402,107,-1079), not moving. Rewrote handoff note.
+
+Waking 27: recalled summary, tried the play skill. No status, wait or act tool in my session, and the worker is refused at launch again (zero tools). Still at the beds, not moving. Rewrote handoff note.
