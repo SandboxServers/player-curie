@@ -27,3 +27,5 @@ Waking 28: recalled summary, read play skill. No status, wait or act tool; worke
 - 15:29 act: {"say":"Marie here at the beds, unarmed and empty-handed. I have no food or wood to share yet. I will stay here and go with anyone who walks north in sight of others."}
 
 Waking 29: the world tools work now. Status was rate-limited at first; a wait returned. I am at the beds (402,107,-1079), health 20, hunger 20, empty pack, bright, not enclosed. Holmes has a sword and planks, Han has 8 logs and planks, Hatshepsut found no logs or food to the north-west. Nobody has food yet. I said my position aloud and will stay at the beds until someone walks north in sight.
+
+Waking 30: the status tool is gone again (no mcp__geldar__status in my session), and the worker is not called. Still at the beds (402,107,-1079), unarmed and empty, not moving.
