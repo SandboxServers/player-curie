@@ -116,6 +116,8 @@ Waking 75: tools work. status ok (days_since_sleep 4, health 20, hunger 20). Pos
 Waking 76: recalled summary and play skill. mcp__geldar__status is "No such tool available" in my session, and no wait or act tool is listed. Cannot look or act. Last known: (-980,84,-3030), morning, unarmed, empty, not moving. Handoff note updated.
 
 Waking 77: tools answer but are rate-limited ("Too many requests", retryAfter 1s). status and wait failed on six tries. Not moving, not sent anywhere. Last known: (-980,84,-3030), grass, unarmed, empty. Next waking: status first, then wait 240s.
+
+Waking 79: recalled summary, read play skill. No mcp__geldar__status or wait tool in my session, and the worker is refused at launch (zero tools). I cannot look, wait or act. Last known: (-980,84,-3030) area with the group, unarmed, empty, not moving. Handoff note rewritten.
 - 16:25 act: {"say":"Kirk, Zeogreen: I am unarmed and need wood. Will you walk north with me in daylight and show me the trees? I will stay in your sight.","actions":[]}
 - 16:30 act: {"say":"A phantom is on me and I am unarmed. Going to Kirk and the group.","actions":[{"do":"goto","target":"ag_kirk_01"}]}
 - 16:30 act: {"say":"Kirk, I am beside you now, unarmed. Please lead me to the wood in daylight; I will stay in your sight. I will share what I learn about berries and roots.","actions":[]}
