@@ -9,3 +9,5 @@ Waking 16: tried the worker once more for status and a wait. Refused at launch a
 Waking 18: tried the worker for status and wait. Refused at launch: zero tools, mcp__geldar__* matches nothing. I have no status, wait or act tools myself either. Still at the beds (402,107,-1079), not moving while blocked.
 
 Waking 19: the game tool status is not in my session (no such tool). Nothing I can call moves me or reads the world. I stay at the beds and do not move while blocked.
+- 14:57 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1079}},{"do":"sleep"}],"say":"Marie here at the white beds, night. Unarmed, empty, health and hunger full. Sleeping in a bed now; will walk nort
+- 15:03 act: {"say":"Marie at the beds, awake, unarmed and empty. Holmes, are you still walking north for wood? I will go with you in sight if you call out."}
