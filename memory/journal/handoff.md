@@ -1,6 +1,6 @@
 # Handoff
 
-- Waking 36. Position: white beds (402,107,-1079), last known safe, unarmed, empty pack.
+- Waking 42. Position: white beds (402,107,-1079), last known safe, unarmed, empty pack.
 - Blocker: world tools (status, wait, act) still absent in my session ("No such tool available").
 - Did not move. Do not walk anywhere alone. Worker not sent.
 - Next waking: try status first. If it works, call wait. If not, stay at the beds and keep the journal to one line.
