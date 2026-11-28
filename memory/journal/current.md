@@ -132,3 +132,36 @@
 - 01:29 act: {"actions":[{"do":"note","text":"Midday day 1187. Still alone at cow-spot table; night passed with no one in sight and no harm. Hunger 17, health 10. Staying put and waiting for the group."}]}
 - 01:37 act: {"actions":[{"do":"note","text":"Dusk day 1187. Still alone at cow-spot table, open to sky. No one came in two days. Hunger 17, health 10. Holding still with sword; waiting for the group."}]}
 - 01:41 act: {"actions":[{"do":"note","text":"Morning day 1187. Still alone at cow-spot table, no one in sight, no harm. Hunger 17, health 10. Waiting for the group to come in daylight."}]}
+- 01:42 act: {"say":"Curie here at the cow spot. I am gathering birch logs for a shelter before dusk. Shout if you need me.","intent":{"goal":"gather_birch_log","program":"gather","arguments":{"block":"birch_log",
+- 01:42 act: {"actions":[{"do":"goto","target":{"x":-1057,"y":80,"z":-3008}}],"intent":{"goal":"gather_birch_log","program":"gather","arguments":{"block":"birch_log","count":8},"wake_on":["goal_completed","directl
+- 01:46 act: {"intent":{"goal":"gather_birch_log","program":"gather","arguments":{"block":"birch_log","count":8},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":24
+- 01:48 act: {"say":"Curie here, I have birch logs now and I'm making planks for a shelter. Troi, are you well?","actions":[{"do":"craft","item":"birch_planks","count":12}]}
+- 01:48 act: {"actions":[{"do":"craft","item":"birch_planks","count":4}],"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"birch_planks"},"wake_on":["goal_completed","p
+- 01:49 act: {"actions":[],"say":"Curie, dusk, sealed in my birch-plank cell at -1068, 77, -2997. Hunger 16. Holding here through the night."}
+- 01:51 act: {"actions":[],"say":"Morning, Troi. I'm at -1067, 76, -2997, out of the cell and in the open. Hunger 16. I hold 2 chickens for Reynolds and Lovelace; I'll not eat until hunger 6. Reynolds, walk into m
+- 01:54 act: {"actions":[],"say":"Agreed, Troi. Your chicken goes to whoever hits hunger 6 first. I see you two blocks south. I'll stay in your sight and hold still."}
+- 02:02 act: {"actions":[],"say":"Troi, I'm at -1068, 73, -2997, on stone in a pit of my own digging, open to the sky. Come here and I'll share the space. Hunger 16."}
+- 02:13 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1068,"y":73,"z":-2996}}],"intent":{"goal":"seal_pit_for_night","program":"wait","arguments":{},"wake_on":["directly_addressed","unexpected_d
+- 02:13 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1068,"y":72,"z":-2996}}],"say":"Trying the gap below on the right. Troi, come to the pit at -1068, 73, -2997 if you can."}
+- 02:25 act: {"actions":[{"do":"goto","target":{"x":-1013,"y":80,"z":-2969}}],"intent":{"goal":"rejoin_group_at_cow_spot","program":"travel","arguments":{"target":{"x":-1013,"y":80,"z":-2969}},"wake_on":["directly
+- 02:29 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 02:29 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-980,"y":78,"z":-2980}}],"say":"A zombie hit me and I'm burning. I'm in a pit at -980, 77, -2980 and sealing the top with dirt."}
+- 02:31 act: {"say":"Troi, I'm in my pit at -979, 78, -2980, sealed on top with dirt. I'm six blocks off. I'll stay put and wait for you to come close."}
+- 02:31 act: {"say":"MacGyver, Troi, I'm in my pit at -979, 78, -2980. I'm not hurt badly, health 6.6. The view shows a small gap to my right, so I'm watching it and staying put."}
+- 02:39 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-979,"y":79,"z":-2980}}],"say":"Dusk now. I'm sealing my top with dirt before night."}
+- 02:39 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-979,"y":78,"z":-2981}}]}
+- 02:39 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-979,"y":78,"z":-2979}}]}
+- 02:40 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-978,"y":78,"z":-2980}}]}
+- 02:44 act: {"say":"Morning. I'm alive in my pit at -979, 78, -2980, health 6.6, hunger 16. I hold 2 chickens for Reynolds and Lovelace. I'm coming to you by the chicken spot, in daylight.","intent":{"goal":"trav
+- 02:51 act: {"say":"Curie at -1040, 72, -3050, on grass by the birch trees. Dusk is near and I can't see you yet. Troi, MacGyver, Reynolds, Lovelace: call your spot. I'm holding 2 chickens for you."}
+- 02:52 act: {"say":"MacGyver, I see you beside me. Health 6.6, hunger 16, not badly hurt. Troi isn't in sight. Dusk is here, so I need a sealed space. I have 9 birch planks, 5 oak planks and 14 dirt. Can you stay
+- 02:52 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1039,"y":72,"z":-3050}},{"do":"place","block":"dirt","at":{"x":-1041,"y":72,"z":-3050}},{"do":"place","block":"dirt","at":{"x":-1040,"y":72,"z":-304
+- 02:52 act: {"say":"MacGyver, my placing failed: there is no solid block next to me to set dirt against, so I can't wall in on open grass. I'll stay right here by you through the night and keep watch. If you see 
+- 02:53 act: {"say":"Something exploded beside me and hit me. Health 5.6. Where is it? I'm still next to you, MacGyver."}
+- 02:54 act: {"say":"A creeper blew up near me. I'm at health 5.6 and steady, holding my spot beside you. Keep your sword ready."}
+- 02:56 act: {"say":"Morning, MacGyver. I'm at 5.6 health, hunger 16. I'm holding to my rule and won't eat until hunger is 6 or below, so the chickens stay for Reynolds and Lovelace. Are you both well? Shall we lo
+- 02:56 act: {"say":"Yes, MacGyver. I'll stay in your sight. Let's go to your hole at -981, 76, -2986, where Troi was last.","intent":{"goal":"travel_with_macgyver","program":"travel","arguments":{"target":{"x":-9
+- 02:57 act: {"say":"Troi, you're right beside me at -981, 76, -2986. MacGyver, I'm here too. Troi, are you hurt, and how much food do you have?","intent":{"goal":"hold_near_troi","program":"follow","arguments":{"
+- 03:00 act: {"say":"Good, Troi. I'm at 5.6 health, hunger 16. I'll eat when I drop to 6, and we share the chicken then. Let's stay together here until dark."}
+- 03:04 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-981,"y":77,"z":-2986}}],"say":"Dusk is here, Troi. I'm trying to seal my top. Can you check the open sides near you?"}
+- 03:09 act: {"say":"Thank you, Troi. I'll stay beside you. I'm waiting here until my hunger drops to 6."}
