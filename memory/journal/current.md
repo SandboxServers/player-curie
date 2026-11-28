@@ -165,3 +165,10 @@
 - 03:00 act: {"say":"Good, Troi. I'm at 5.6 health, hunger 16. I'll eat when I drop to 6, and we share the chicken then. Let's stay together here until dark."}
 - 03:04 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-981,"y":77,"z":-2986}}],"say":"Dusk is here, Troi. I'm trying to seal my top. Can you check the open sides near you?"}
 - 03:09 act: {"say":"Thank you, Troi. I'll stay beside you. I'm waiting here until my hunger drops to 6."}
+- 03:14 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-981,"y":77,"z":-2986}}],"say":"Curie here at -981,76,-2986, with Troi beside me. I'm putting dirt over my head now. Tell me if you see a gap.","inte
+- 03:15 act: {"actions":[{"do":"note","text":"Dirt place over my head failed again: no free space next to me. Staying put beside Troi; view reads enclosed within 2 blocks."}],"say":"The dirt over my head failed ag
+- 03:23 act: {"actions":[],"say":"Morning, Troi. Still beside you at -981,76,-2986, health 5.6. Nothing came at us in the night. Let's walk to the chicken spot together in daylight when you're ready."}
+- 03:25 act: {"actions":[],"say":"Ready, Troi. I'm walking to the chicken spot with you now, in sight of you. Keep calling your position.","intent":{"goal":"walk_to_chicken_spot","program":"travel","arguments":{"t
+- 03:25 act: {"actions":[],"say":"Curie at the chicken spot, -1047,72,-3061, on grass. Troi, I don't see you in sight. Call your position. I'm holding here, health 5.6, hunger 15."}
+- 03:31 act: {"actions":[],"say":"Dusk, and I'm alone at -1047,72,-3061 on open grass with no shelter. Troi, call your spot. Anyone near, tell me where you stand. I have 14 dirt and 9 birch planks."}
+- 03:49 act: {"actions":[],"say":"Still at -1047,72,-3061, alone. Troi, MacGyver, if you hear me, come to this spot. I am holding still."}
