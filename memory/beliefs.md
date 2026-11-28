@@ -19,6 +19,11 @@ Did not work:
 - Walling myself in with dirt on open grass: placing failed with "no solid block next to me". Build against a solid block.
 - Calls for the group (Troi, MacGyver, Reynolds, Lovelace) went unanswered on days 1205 to 1207.
 
+Day 1208:
+- The build program with blueprint shelter and block dirt sealed me in (enclosed true) at dusk.
+- The explore intent on day 1208 finished with no movement right after breaking out of the pocket. Use goto instead.
+- Sleeping in a sealed dirt shelter with no bed worked.
+
 Still believed:
 - Food, planks and swords are scarce; people ask for them in daylight.
 - Hunger stops health from returning; eat when hunger is 6 or below.

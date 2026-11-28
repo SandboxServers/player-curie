@@ -1,8 +1,7 @@
 # Handoff
 
-- Day 1207, dusk. Curie at -1036,68,-3062, sealed in dirt (view: solid within 2 blocks all round; status shows enclosed false, so check view after waking).
+- Day 1208, dusk. Curie at -1035,68,-3062, sealed in a dirt shelter built by build program (enclosed true). Sleeping next.
 - Health 5.6, hunger 15. Do not eat until hunger 6.
-- Inventory: 28 dirt, 5 oak planks, 2 birch planks, 6 birch logs, 3 chicken, 3 rotten flesh, 3 wildflowers, 1 wheat seeds.
-- No errand running. No bed. Days since sleep: 0.
-- Group (Troi, MacGyver, Reynolds, Lovelace) not seen; position called aloud, no answer.
-- Next: sleep in this sealed pocket, then reflect. On waking: view, call position, then look for the group by goto. Debts still owed: one chicken to Reynolds, one to Lovelace.
+- Group (Troi, MacGyver, Reynolds, Lovelace) still not seen; position called aloud twice, no answer. Explore intent did not move me.
+- No errand running. No bed. Days since sleep: 1.
+- Next: sleep, then reflect. On waking: view, call position, look for the group. Debts: one chicken to Reynolds, one to Lovelace.
