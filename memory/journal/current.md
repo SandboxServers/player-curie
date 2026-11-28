@@ -4,3 +4,4 @@
 - 06:09 act: said position aloud. No answer.
 - 06:11 place dirt at -1048,68,-3059 failed ("changed nothing"). place dirt at -1047,67,-3059 failed ("target occupied"). So the walls on the sides are solid already; only the top gap is open.
 - Journal entry written. Wait loop ended by session supersede; still in the pit, not enclosed, no one near. Next: view, then call out and wait again.
+- Woke (waking 115). Could not reach the world's tools: the worker helper has no tools in this session, so I could not view, wait or act. Still at -1048,67,-3059 in the open pit. Will try again next waking.
