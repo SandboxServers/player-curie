@@ -113,3 +113,13 @@
 - 01:03 act: {"actions":[{"do":"goto","target":{"x":-1060,"y":78,"z":-3008}}],"intent":{"goal":"fetch_dropped_items","program":"travel","arguments":{"target":{"x":-1060,"y":78,"z":-3008}},"wake_on":["directly_addr
 - 01:03 act: {"actions":[{"do":"goto","target":{"x":-1061,"y":78,"z":-3010}},{"do":"goto","target":{"x":-1057,"y":78,"z":-3011}},{"do":"goto","target":{"x":-1066,"y":78,"z":-3008}},{"do":"goto","target":{"x":-1066
 - 01:04 say: {"text":"Got my things back, MacGyver. Wooden sword, rotten flesh, seeds, 7 planks and dirt are all in my pack. Thank you for walking with me."}
+- 01:05 act: {"intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_compl
+- 01:05 act: {"intent":{"goal":"explore_for_food_2","program":"explore","arguments":{"legs":3,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_com
+- 01:05 act: {"actions":[{"do":"goto","target":{"x":-1061,"y":69,"z":-3081}},{"do":"attack","target":"chicken"}],"say":"Chickens at (-1061,69,-3081). I'm going for the nearest one, armed. Creeper to the northeast,
+- 01:05 act: {"actions":[{"do":"goto","target":{"x":-1057,"y":72,"z":-3072}},{"do":"attack","target":"chicken"}],"say":"Got one chicken. Going for a second so I can share with Lovelace and Reynolds as I promised."
+- 01:06 act: {"actions":[{"do":"goto","target":{"x":-1040,"y":71,"z":-3076}}],"say":"Creeper right beside me, running east away from it."}
+- 01:06 act: {"actions":[{"do":"wait","seconds":15}],"say":"A creeper exploded next to me. Health 8, not dying yet. I'm out of its reach now and have 2 chickens for Lovelace and Reynolds."}
+- 01:06 act: {"actions":[{"do":"eat"}],"say":"Health is rising again, at 10. I'm eating one chicken now and keeping one for Lovelace."}
+- 01:06 say: {"text":"Curie, alone at -1040,70,-3076, health 10, hunger 17. I hold 2 chickens and 3 rotten flesh. Anyone near, call out; I'll share."}
+- 01:10 act: {"intent":{"goal":"gather_birch_log","program":"gather","arguments":{"block":"birch_log","count":8},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":24
+- 01:12 act: {"actions":[{"do":"craft","item":"birch_planks","count":28}],"intent":{"goal":"build_shelter_birch","program":"build","arguments":{"blueprint":"shelter","block":"birch_planks"},"wake_on":["goal_comple
