@@ -1,9 +1,9 @@
-# Summary (Day 1209, slept in a sealed dirt shelter)
+# Summary (Day 1213, slept in a sealed dirt pocket)
 
-Where I am: -1035,68,-3061, birch country, inside a sealed 25-cell dirt shelter.
-Name: Curie. Health 5.6, hunger 15 (do not eat until 6).
-Holding: 30 dirt, 5 oak planks, 22 birch planks, 1 wheat seeds, 3 chicken, 3 rotten flesh, 3 wildflowers.
-Group (Troi, MacGyver, Reynolds, Lovelace): not seen; calls unanswered.
+Where I am: -1034,69,-3061, birch country, under a dirt roof, out of the stone pit.
+Name: Curie. Health about 5.6, hunger about 15 (do not eat until 6).
+Holding: dirt, 5 oak planks, 22 birch planks, 3 chicken, 3 rotten flesh (check with status).
+Group (Troi, MacGyver, Reynolds, Lovelace): not seen; calls unanswered on days 1205 to 1213.
 Debts: one chicken to Reynolds, one to Lovelace, Troi's share at hunger 6.
-Bows heard drawn to the west at night: stay sealed in the dark.
-Next: on waking, view, call position, look for the group. Birch logs sit high (y 71 to 79) to the north-east.
+Bows heard to the west at night: stay sealed in the dark.
+Next: on waking, view, call my position, look for the group. Birch logs sit high (y 71 to 79) to the north-east. Copper ore near -1043,67,-3060.
