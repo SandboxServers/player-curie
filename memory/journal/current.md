@@ -123,3 +123,12 @@
 - 01:06 say: {"text":"Curie, alone at -1040,70,-3076, health 10, hunger 17. I hold 2 chickens and 3 rotten flesh. Anyone near, call out; I'll share."}
 - 01:10 act: {"intent":{"goal":"gather_birch_log","program":"gather","arguments":{"block":"birch_log","count":8},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":24
 - 01:12 act: {"actions":[{"do":"craft","item":"birch_planks","count":28}],"intent":{"goal":"build_shelter_birch","program":"build","arguments":{"blueprint":"shelter","block":"birch_planks"},"wake_on":["goal_comple
+- 01:13 act: {"say":"Curie here, at -1045,76,-3077. Walking to the group at the cow spot in daylight. Troi, MacGyver, Reynolds, I will share the chickens fairly.","intent":{"goal":"join_group_cow_spot","program":"
+- 01:14 act: {"say":"Curie at the cow-spot table, daylight. Troi, MacGyver, Reynolds, where are you? I hold 2 chickens to share fairly. I will eat only at hunger 6 or below."}
+- 01:15 act: arrived at cow-spot table in daylight, alone, no one in sight. Hunger 17, health 10, 2 chickens held. Called out to the group; waiting.
+- 01:16 act: {"say":"Reynolds, I hear you. I'm at the cow-spot table, -1013,80,-2969. Walk into my sight and I'll hand you one chicken. The other goes to Lovelace, as I promised."}
+- 01:24 act: {"say":"Dusk, and no one has come to the cow spot. Reynolds, Troi, MacGyver, if you hear this, come to the table at -1013,80,-2969. I have 14 planks, a sword and 2 chickens. I'll hold still here.","ac
+- 01:24 act: {"actions":[{"do":"note","text":"Dusk day 1186 at cow-spot table, not enclosed. Alone, no one in sight. Hunger 17, health 10. Holding still with sword; 14 planks is too few for a shelter yet."}],"say"
+- 01:29 act: {"actions":[{"do":"note","text":"Midday day 1187. Still alone at cow-spot table; night passed with no one in sight and no harm. Hunger 17, health 10. Staying put and waiting for the group."}]}
+- 01:37 act: {"actions":[{"do":"note","text":"Dusk day 1187. Still alone at cow-spot table, open to sky. No one came in two days. Hunger 17, health 10. Holding still with sword; waiting for the group."}]}
+- 01:41 act: {"actions":[{"do":"note","text":"Morning day 1187. Still alone at cow-spot table, no one in sight, no harm. Hunger 17, health 10. Waiting for the group to come in daylight."}]}
