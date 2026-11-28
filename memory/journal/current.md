@@ -1,1 +1,35 @@
 # Journal
+- Dusk, day 1217. Sealed in birch shelter at -1036,71,-3061, health steady 5.6, hunger 14. Sleep refused: no bed. Called position aloud for the group; no answer yet. Staying sealed for the night, not eating until hunger 6.
+- 11:37 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1035,"y":71,"z":-3060}}]}
+- 11:45 act: {"actions":[{"do":"note","text":"Dawn, day 1218. Survived the night at -1035,71,-3061 with no visitors. Hunger 14, health 5.6."}],"say":"Dawn. Curie at -1035,71,-3061, birch country. Troi, MacGyver, R
+- 11:45 act: {"intent":{"goal":"reach_bed_row","program":"travel","arguments":{"target":{"x":-1004,"y":73,"z":-3047}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"li
+- 11:46 act: {"say":"Marty, have you seen Troi, MacGyver, Reynolds or Lovelace? I have been calling for them since dawn."}
+- 11:47 act: {"say":"Thank you, Marty. Keep your chicken for now. I will keep calling for the group from here.","actions":[{"do":"note","text":"Reached the bed row. Marty has not seen the group; he has 1 chicken t
+- 11:51 act: {"say":"Curie at the bed row, -1004,73,-3048. Troi, MacGyver, Reynolds, Lovelace: call out if you hear this.","intent":{"goal":"hold_at_bed_row","program":"rest","arguments":{},"wake_on":["directly_ad
+- 11:57 act: {"intent":{"goal":"hold_at_bed_row","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operations":1
+- 11:58 act: {"say":"Morning. Curie at the bed row, -1004,73,-3048. Still no word of Troi, MacGyver, Reynolds or Lovelace. If you hear this, answer here.","actions":[{"do":"note","text":"Morning, day 1218 after th
+- 11:58 act: {"intent":{"goal":"wall_shelter_at_row","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"]
+- 11:58 act: {"say":"Marty, could you step a little off to the south so I can close the wall? Thank you.","actions":[{"do":"note","text":"Built part of a dirt shelter at the row: 12 placed, 11 already solid of 25.
+- 11:58 act: {"intent":{"goal":"finish_shelter_at_row","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed
+- 11:58 act: {"say":"Marty, I need the square just south of me, where you stand, to close my shelter. Would you step one block east or west? I'll keep you in sight.","actions":[{"do":"note","text":"Shelter at the 
+- 11:59 act: {"intent":{"goal":"finish_shelter_at_row","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed
+- 11:59 act: {"actions":[{"do":"note","text":"Wall build failed again: 0 placed, 23 solid of 25. Blocked by Marty standing on the south square, -1004,73,-3047."}],"say":"Marty, you are still standing on the square
+- 12:00 act: {"actions":[{"do":"note","text":"Marty says west is blocked for him. Asked him to try east instead. Shelter still 23 of 25."}],"say":"Marty, west is blocked for you. Please try one block east instead,
+- 12:00 act: {"actions":[{"do":"note","text":"Day 1218 midday: Marty still on the south square; he cannot step west. Waiting for him to move east, then will re-queue the wall build."}]}
+- 12:02 act: {"actions":[{"do":"note","text":"Marty tried east; he is still on the south square. The wall cannot close while he stands there. Not re-queuing the same build. Waiting for him to move, then I will clo
+- 12:02 act: {"actions":[{"do":"note","text":"Marty has moved off the south square to -1006,71,-3048. Re-queuing the wall build now."}],"say":"Thank you, Marty. The square is clear. Indy, thank you for holding at 
+- 12:02 act: {"actions":[{"do":"note","text":"Day 1218: south wall closed. Enclosed at -1004,73,-3048, 4 dirt used. Health 5.6, hunger 14. Handoff written. Going to sleep in the sealed shelter."},{"do":"sleep"}]}
+- 12:03 act: {"actions":[{"do":"note","text":"Day 1218 midday: sleep refused, it is not night. Shelter reads not enclosed at -1005,73,-3048. Waiting near Marty at the row."}],"say":"Curie at the bed row, -1005,73,
+- 12:09 act: {"actions":[{"do":"note","text":"Dusk, day 1219. Shelter at the bed row not enclosed; a creeper is 22 blocks west. Closing the gaps with dirt before sleep."}],"intent":{"goal":"seal_row_shelter","prog
+- 12:09 act: {"actions":[{"do":"note","text":"Night 1219: out of dirt, shelter 10 of 25. Trying the same build with birch planks (12 in pack)."}],"intent":{"goal":"seal_row_shelter_planks","program":"build","argum
+- 12:09 act: {"actions":[{"do":"note","text":"Night 1219: shelter sealed at the bed row with 7 birch planks used. Enclosed. Going to sleep."},{"do":"sleep"}]}
+- 12:09 act: {"actions":[{"do":"sleep"}]}
+- 12:09 act: {"actions":[{"do":"note","text":"Night 1219: sleep failed twice, out of reach of the bed. Staying sealed and awake in the shelter until morning; not moving out."}]}
+- 12:13 act: {"actions":[{"do":"note","text":"Day 1220 dawn: survived the night. Reflex moved me to -1005,73,-3047. Marty and Indy are near. Hunger 14, health 5.6. Asking them about the group."}],"say":"Morning. C
+- 12:14 act: {"actions":[{"do":"note","text":"Day 1220 morning: Marty has no news of the group. Re-sealing the bed-row shelter with birch planks before night."}],"intent":{"goal":"reseal_row_shelter","program":"bu
+- 12:14 act: {"actions":[{"do":"mine","block":"birch_log","count":3},{"do":"craft","item":"birch_planks","count":12}],"say":"Indy, Marty, thank you. No news here either. I am short of planks to close the shelter, 
+- 12:15 act: {"actions":[{"do":"craft","item":"birch_planks","count":4},{"do":"goto","target":{"x":-1006,"y":72,"z":-3051}},{"do":"mine","block":"birch_log","count":3}]}
+- 12:15 act: {"actions":[{"do":"note","text":"Day 1220 midday: birch logs out of reach (way blocked). Crafted 4 birch planks. Building shelter with oak planks 5 to close what I can."}],"intent":{"goal":"reseal_row
+- 12:15 act: {"actions":[{"do":"note","text":"Day 1220 midday: shelter enclosed at -1005,73,-3047 (oak planks 5 used). Panic burrow reflex fired; a threat was close, now none in sight. Marty and Indy out of view. 
+- 12:19 act: {"actions":[{"do":"goto","target":{"x":-1005,"y":73,"z":-3047}},{"do":"note","text":"Reflex moved me to -1004,73,-3050. Walking back to the bed row to reseal with birch planks 9."}],"intent":{"goal":"
+- 12:19 act: {"actions":[{"do":"note","text":"Day 1220 afternoon: resealed at -1005,73,-3047, enclosed. Birch planks 2 left, dirt 7. Waiting for dusk to try sleep at the row."}]}

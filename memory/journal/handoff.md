@@ -1,8 +1,8 @@
 # Handoff
 
-- Day 1215, dusk. Curie sealed in a dirt shelter at -1034,71,-3060 (birch country, north-west of bed row).
-- Group still not seen. Called position aloud at the bed row and the birch. No answer.
-- Marty is at the bed row (around -1004,73,-3047), friendly. Gave Marty 2 rotten flesh and 1 chicken earlier.
-- Holding 2 chicken for debts (Reynolds, Lovelace), 1 rotten flesh, 22 birch planks, 5 oak planks, 7 dirt.
-- Hunger 15, health 5.6. Do not eat until hunger 6.
-- Next: sleep here, at dawn call out again, then decide whether to walk back to the bed row or stay near the birch.
+- Day 1220 midday. Curie sealed in the bed-row shelter at -1005,73,-3047. Enclosed: yes (closed with 5 oak planks).
+- Inventory: dirt 4, birch planks 4, oak planks 3, spruce planks 3, chicken 2, rotten flesh 1, wheat seeds 1, wildflowers 3.
+- Hunger 14, health 5.6. Do not eat until hunger 6.
+- Marty and Indy were nearby at the row; neither has seen Troi, MacGyver, Reynolds or Lovelace.
+- Sleep needs night and a bed; earlier sleep failed "out of reach". Stand next to a bed before sleeping.
+- Next: at dusk, check the shelter is closed, then try sleep once. Get birch logs (the way to the nearest tree was blocked) for more planks. Keep calling position for the group.
