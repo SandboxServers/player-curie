@@ -15,3 +15,6 @@
 - 04:38 act: {"actions":[{"do":"note","text":"Day 1196 morning again. Survived the night in the open pit, no attacks. Still at -1047,69,-3060."}],"say":"Curie, morning. Still alive at -1047, 69, -3060, health 5.6,
 - 04:49 act: {"say":"Curie, still at -1047, 69, -3060, health 5.6, hunger 15. Troi, MacGyver, I'm waiting here in daylight."}
 - 05:01 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1048,"y":71,"z":-3061}},{"do":"place","block":"birch_planks","at":{"x":-1047,"y":71,"z":-3061}},{"do":"place","block":"birch_planks","at":{"
+- 05:10 act: {"say":"Curie here, alone at -1047,69,-3060. Calling Troi, MacGyver, Reynolds, Lovelace: I am building a dirt wall here. Answer if you are near.","intent":{"goal":"wall_in_for_night","program":"build"
+- 05:10 act: {"say":"Curie, still alone at -1047,69,-3060, open to the sky. Troi, MacGyver, Reynolds, Lovelace: call your position and I will come to you.","intent":{"goal":"hold_and_call_group","program":"rest","
+- 05:13 act: {"say":"Curie, night, at -1047,69,-3060, in a dirt pit with dirt on every side but the top. Health 5.6, hunger 15. Anyone near, call out."}
