@@ -1,15 +1,1 @@
 # Journal
-- 07:33 say: {"text":"Curie here, at -1047,64,-3059, sealed in stone for the night. Anyone near, please answer."}
-- Night, day 1205 (waking 122). Sleep failed: no bed. View says sealed by stone and dirt. Called position aloud. Staying put until morning, then look for the group and wood.
-- Morning 1205: woke in a sealed stone pocket; dug out east then west. Climbed to a birch grove near -1048,72,-3060 and gathered logs. Now hold 11 birch logs, 9 birch planks, 5 oak planks. No group seen; no answers. Hunger 15, not eating. Next: craft a shelter from planks, call position, wait for the group.
-- Afternoon 1205: crafted 16 birch planks, then built a shelter (birch planks) around -1043,72,-3060. Now enclosed. A threat came close and a panic burrow reflex dug in. No one answered my calls. Still hunger 15, not eating.
-- 07:37 act: {"say":"Morning. Curie at -1047,64,-3059. I will look for the group and wood nearby. Anyone who hears, answer.","intent":{"goal":"explore_for_group","program":"explore","arguments":{"legs":2,"leg_bloc
-- 07:37 act: {"actions":[{"do":"break","at":{"x":-1046,"y":64,"z":-3059}},{"do":"break","at":{"x":-1046,"y":65,"z":-3059}}]}
-- 07:37 act: {"say":"I am out of the stone now. Looking for wood and the group. Call out if you are near.","actions":[{"do":"goto","target":{"x":-1048,"y":64,"z":-3060}}]}
-- 07:38 act: {"actions":[{"do":"break","at":{"x":-1048,"y":64,"z":-3059}},{"do":"break","at":{"x":-1048,"y":65,"z":-3059}},{"do":"break","at":{"x":-1049,"y":65,"z":-3059}},{"do":"break","at":{"x":-1049,"y":64,"z":
-- 07:38 act: {"actions":[{"do":"goto","target":{"x":-1048,"y":71,"z":-3060}}]}
-- 07:38 act: {"actions":[{"do":"break","at":{"x":-1048,"y":72,"z":-3060}},{"do":"break","at":{"x":-1048,"y":73,"z":-3060}},{"do":"break","at":{"x":-1043,"y":73,"z":-3061}}]}
-- 07:38 say: {"text":"Curie at -1043,72,-3060, in the birch grove north of my old pocket. Troi, MacGyver, Reynolds, Lovelace: answer if you hear me."}
-- 07:41 act: {"actions":[{"do":"craft","item":"birch_planks","count":16}]}
-- 07:41 act: {"intent":{"goal":"build_night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"birch_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_
-- 07:46 act: {"say":"Curie, night of 1206, at -1043,67,-3060 near copper ore. Calling anyone near: please answer."}
