@@ -18,3 +18,4 @@
 - 06:37 act: {"actions":[{"do":"break","at":{"x":-1046,"y":64,"z":-3059}}]}
 - 06:37 act: {"actions":[{"do":"goto","target":{"x":-1046,"y":64,"z":-3059}},{"do":"place","block":"dirt","at":{"x":-1046,"y":65,"z":-3059}}]}
 - 06:37 act: {"actions":[],"say":"Curie, at -1047,64,-3059, alone in a stone pocket, open above. Troi, MacGyver, Reynolds, Lovelace: if you are near, answer."}
+- 06:50 say: {"text":"Curie here, at -1047, 64, -3059, in a stone pocket. Health 5.6, hunger 15. Anyone near, please call out."}
