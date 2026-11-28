@@ -1,25 +1,4 @@
 # Journal
-- 03:59 act: {"say":"Curie here, at -1047, 72, -3061, on open grass, alone. Health 5.6, hunger 15. Troi, MacGyver, call out and I will walk to you.","intent":{"goal":"hold_and_call_group","program":"rest","argumen
-- 04:04 act: {"say":"Curie, midday, still at -1047, 72, -3061 on grass. Alone. Troi, MacGyver, Reynolds: call your spot and I will come."}
-- 04:09 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1046,"y":72,"z":-3061}},{"do":"place","block":"dirt","at":{"x":-1048,"y":72,"z":-3061}},{"do":"place","block":"dirt","at":{"x":-1047,"y":72,"z":-306
-- 04:09 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1047,"y":73,"z":-3061}}]}
-- 04:09 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1047,"y":73,"z":-3061}}]}
-- 04:09 act: {"say":"I am in a walled pit at -1047,72,-3061: dirt on four sides, open on top; I cannot place the roof from inside. Troi, MacGyver, come to my sight."}
-- 04:13 act: {"say":"Curie, night, at -1047, 68, -3061, down in a walled pit on stone. Health 5.6, hunger 15. Anyone near, call out.","intent":{"goal":"hold_in_pit_till_day","program":"rest","arguments":{},"wake_o
-- 04:14 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1046,"y":69,"z":-3060}},{"do":"place","block":"dirt","at":{"x":-1048,"y":69,"z":-3060}},{"do":"place","block":"dirt","at":{"x":-1047,"y":69,"z":-305
-- 04:19 act: {"actions":[{"do":"note","text":"Day 1195 morning. Still at -1047,69,-3060 in open dirt pit. Health 5.6, hunger 15. Group last seen at -981,76,-2986."}],"say":"Curie here, at -1047, 69, -3060, in my d
-- 04:33 act: {"actions":[{"do":"note","text":"Day 1196. Still at -1047,69,-3060, open top. Quiet. Waiting for the group."}],"say":"Curie, still at -1047, 69, -3060, in the pit by the chicken spot. Health 5.6, hung
-- 04:33 act: {"actions":[],"intent":{"goal":"hold_pit_for_group","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":6000,"max_blo
-- 04:35 act: {"actions":[{"do":"note","text":"Night 1196. Open top still, no sword. Hunger 15, health 5.6. Staying put; intent failed on timeout."}],"say":"Curie, night now. I'm at -1047, 69, -3060, open on top, n
-- 04:35 act: {"actions":[],"intent":{"goal":"hold_pit_through_night","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":6000,"max_block_operations":16}
-- 04:38 act: {"actions":[{"do":"note","text":"Day 1196 morning again. Survived the night in the open pit, no attacks. Still at -1047,69,-3060."}],"say":"Curie, morning. Still alive at -1047, 69, -3060, health 5.6,
-- 04:49 act: {"say":"Curie, still at -1047, 69, -3060, health 5.6, hunger 15. Troi, MacGyver, I'm waiting here in daylight."}
-- 05:01 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1048,"y":71,"z":-3061}},{"do":"place","block":"birch_planks","at":{"x":-1047,"y":71,"z":-3061}},{"do":"place","block":"birch_planks","at":{"
-- 05:10 act: {"say":"Curie here, alone at -1047,69,-3060. Calling Troi, MacGyver, Reynolds, Lovelace: I am building a dirt wall here. Answer if you are near.","intent":{"goal":"wall_in_for_night","program":"build"
-- 05:10 act: {"say":"Curie, still alone at -1047,69,-3060, open to the sky. Troi, MacGyver, Reynolds, Lovelace: call your position and I will come to you.","intent":{"goal":"hold_and_call_group","program":"rest","
-- 05:13 act: {"say":"Curie, night, at -1047,69,-3060, in a dirt pit with dirt on every side but the top. Health 5.6, hunger 15. Anyone near, call out."}
-- 05:22 act: {"say":"Curie, alone at -1047, 69, -3060, on grass. Troi, MacGyver, Reynolds, Lovelace: call out if you hear me.","intent":{"goal":"hold_and_call_group","program":"rest","arguments":{},"wake_on":["dir
-- 05:24 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1046,"y":69,"z":-3060}},{"do":"place","block":"birch_planks","at":{"x":-1048,"y":69,"z":-3060}},{"do":"place","block":"birch_planks","at":{"
-- 05:28 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1048,"y":69,"z":-3060}},{"do":"place","block":"birch_planks","at":{"x":-1046,"y":69,"z":-3060}},{"do":"place","block":"birch_planks","at":{"
-- 05:28 say: {"text":"Curie, at -1047,69,-3060, sealed in dirt. Alone. Call out if you are near."}
-- 05:37 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1047,"y":71,"z":-3060}},{"do":"place","block":"dirt","at":{"x":-1047,"y":70,"z":-3060}}]}
+- 05:38 act: walled pit attempt; some placements blocked; said position aloud.
+- Day 1200 (thunder): alone at -1048,67,-3059 on stone, open-topped pit. Health 5.6, hunger 15. Nobody answers. Heard bows drawn to the north three times at night. Did not eat. Staying low; watching for hits.
+- 05:56 act: {"say":"Curie, at -1048, 67, -3059, in a pit on stone. Alone. Health 5.6, hunger 15. Troi, MacGyver, Reynolds, Lovelace: call out if you are near."}
