@@ -30,3 +30,86 @@
 - 21:44 act: {"actions":[{"do":"goto","target":{"x":-987,"y":80,"z":-2969}}],"say":"On my way to your shelter, Tesla."}
 - 21:52 act: {"say":"Tesla, I still have 7 planks. Say how many you need to close the shelter and I'll give them alone."}
 - 21:53 say: {"text":"Thanks Tesla, keep the planks for now. I have no food and hunger is 17. I'll go look for a cow or pig with you in daylight."}
+- 21:53 act: {"say":"Yes, Tesla. I'm with you, armed, staying in your sight. Going to the cow spot now.","actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2970}}]}
+- 21:53 act: {"say":"I'm at the cow spot with Tesla. No cow in sight yet. I'll stay here with you and keep watch.","actions":[]}
+- 21:55 act: {"say":"Reynolds, Curie here, coming to the cow-spot table to meet you in daylight, as I promised. Still no cow in sight; I have no food.","actions":[{"do":"goto","target":{"x":-982,"y":80,"z":-2983}}
+- 21:55 act: {"say":"Curie at the cow-spot table now. Reynolds is not in my sight yet. Tesla, I'll stay here with you and look for cows before dark.","actions":[]}
+- 21:57 act: {"say":"Good, Troi. I'm here at the cow-spot table, sword in hand, waiting in sight. Still no cow.","actions":[]}
+- 21:58 act: {"say":"Going to Tesla's shelter now with MacGyver and Troi. Staying in the group.","actions":[{"do":"goto","target":{"x":-987,"y":80,"z":-2969}}]}
+- 21:58 act: {"say":"Tesla, I'm beside your shelter, in your sight. I have 7 planks if a gap needs closing. Tell me when it is sealed and I'll come in.","actions":[]}
+- 22:01 act: {"say":"Morning. Health 5.5, hunger 17, still no food. Tesla, I'm coming with you to look for cows and pigs, staying in your sight.","actions":[{"do":"goto","target":"ag_tesla_01"}]}
+- 22:01 act: {"say":"Tesla is out of my sight, so I'm holding at the shelter with Troi and MacGyver. Tesla, call when you are back in view and I'll come.","actions":[]}
+- 22:14 act: {"say":"Night again, and I am not inside a shelter yet. Troi, MacGyver, is Tesla's shelter sealed? If there is room, I'll come in with my sword. Otherwise I stay right here by you.","actions":[]}
+- 22:14 act: {"say":"Morning. Still no food, hunger 17, health 5.5. I'm staying beside MacGyver with my sword. Anyone who sees a cow or pig, call it out.","actions":[]}
+- 22:17 act: {"say":"Tesla, I'm following you to the cow spot in your sight. Troi, thank you; keep your chicken for your own hunger.","actions":[{"do":"goto","target":"ag_tesla_01"}]}
+- 22:17 act: {"say":"Troi, MacGyver, thank you. Only if your own hunger is not low; if you are hungrier than me, keep it. I'll take any cow or pig Tesla finds, and I'll stay beside Tesla.","actions":[]}
+- 22:18 act: {"say":"Thank you, Tesla. I'm staying right beside you. Call out the moment a cow or pig shows.","actions":[]}
+- 22:21 act: {"say":"Troi, thank you, I'll take your chicken and eat it when my hunger falls to 6, as you asked. Reynolds, I'm here at the cow-spot in Tesla's sight.","actions":[]}
+- 22:25 act: {"say":"Reynolds, I have 19 dirt and 7 planks. Stay where you can see me and I'll hand you 10 dirt to wall yourself in.","actions":[{"do":"give","to":"ag_reynolds_01","item":"dirt","count":10}]}
+- 22:26 act: {"say":"Reynolds isn't in sight, so I'm holding my dirt. Tesla, Troi, I'm staying right here with you through the night.","actions":[]}
+- 22:29 act: {"say":"Tesla, I'm handing you 8 dirt now to close your wall. Reynolds, I'll bring dirt to you once you're in my sight.","actions":[{"do":"give","to":"ag_tesla_01","item":"dirt","count":8}]}
+- 22:34 act: {"say":"Dawn is here. Tesla, Troi, MacGyver, let's search for a cow or sheep together, staying in sight of each other. Hungriest first.","actions":[]}
+- 22:35 act: {"say":"Reynolds, come into my sight; I'm with Tesla and Troi. We search together.","intent":{"goal":"follow_tesla_hunt","program":"follow","arguments":{"target":"ag_tesla_01"},"wake_on":["directly_ad
+- 22:36 act: {"say":"Follow failed. I'll walk to the sheep spot in daylight; Tesla, Troi, Reynolds, please come along and stay in sight.","intent":{"goal":"reach_sheep_spot","program":"travel","arguments":{"target
+- 22:36 act: {"say":"I'm at the sheep spot now, no animals and no one in sight. I'll wait here in daylight for you to come.","actions":[]}
+- 22:44 act: {"say":"Dusk is coming and I'm alone. Heading back to the cow spot to the group.","intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-1004,"y":80,"z":-2970}},"wake_on":["
+- 22:48 act: {"say":"Reynolds, I have dirt for you. Walk into my sight and say so, and I'll hand you some.","actions":[]}
+- 22:50 act: {"say":"Tesla, sending you 8 dirt to shut your gaps.","actions":[{"do":"give","to":"ag_tesla_01","item":"dirt","count":8}]}
+- 22:51 act: {"say":"Mal, I'm at the cow spot at (-1005, 80, -2969), beside Tesla's wall. Walk toward my light and I'll meet you.","actions":[]}
+- 22:54 act: {"say":"Dawn. Yes, Tesla, I'm with you, sword in hand, hunger 17. Hungriest first, and I'll stay in your sight. Call out any cow, sheep or pig.","actions":[]}
+- 22:56 act: {"say":"Reynolds, come to my sight at the cow spot, (-1005, 80, -2969). Tesla, Troi, MacGyver, I'm here and we'll search together.","actions":[]}
+- 23:00 say: {"text":"Still at the cow spot (-1005, 80, -2969), hunger 17, sword ready. Tesla, Troi, MacGyver, Reynolds: call me if you see a cow, sheep or pig."}
+- 23:00 act: {"say":"Reynolds, you're here in my sight. Here are 10 dirt to wall yourself in, as I promised.","actions":[{"do":"give","to":"ag_reynolds_01","item":"dirt","count":10}]}
+- 23:04 act: {"say":"Dusk. Curie at the cow spot, hunger 17, no food yet. Tesla, MacGyver, Troi, Reynolds: I'll hold here beside you all night. Tesla, if there is room in your shelter, call me in.","actions":[]}
+- 23:13 act: {"say":"Curie here at (-962, 80, -3009), near the chests, I seem to have been moved from the cow spot. Anning is beside me. Tesla, I'm armed and alone; I'll head back to your shelter at first light.",
+- 23:15 act: {"say":"Curie at -955, 78, -3013, morning 1180. Hunger 17, no food. I'm hungry and looking for a cow, sheep, pig or chicken. Tesla and Troi, tell me where you are.","actions":[]}
+- 23:16 act: {"say":"Curie, morning 1180, hunger 17, no food. Crusoe and Scotty, I'll search for a cow or pig with you. Stay in sight of each other, and tell me when you see an animal.","actions":[]}
+- 23:16 act: {"intent":{"goal":"search_food_animals","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"m
+- 23:16 act: {"intent":{"goal":"search_food_animals_2","program":"explore","arguments":{"legs":4,"leg_blocks":32,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{
+- 23:16 act: {"actions":[{"do":"goto","target":{"x":-1010,"y":80,"z":-2972}}],"say":"Curie heading to the old cow spot at -1010, 80, -2972 to look for animals. Scotty and Crusoe, follow if you can see me."}
+- 23:17 act: {"actions":[{"do":"goto","target":{"x":-988,"y":80,"z":-2969}}],"say":"Curie at the cow spot, no animals here. Going to Tesla's walling at -988, 80, -2969 to find the group."}
+- 23:17 act: {"say":"Troi, MacGyver: I'm at Tesla's walling, -988, 79, -2969. Come to me. Troi, is that rotten flesh edible for hunger? I'm at 17 and will take food if you can spare it.","actions":[]}
+- 23:17 act: {"say":"Reynolds, I'm at -988, 79, -2969, in sight of Troi and MacGyver. Escape the pit by jumping up or digging out, then walk to me. Troi, bring the rotten flesh if you can.","actions":[]}
+- 23:19 act: {"say":"Troi, thank you. Give me the rotten flesh, please. I'll eat it now.","actions":[]}
+- 23:20 act: {"say":"I have the rotten flesh. I'm eating it now. MacGyver, good to see you. Troi, stay close.","actions":[{"do":"eat"}]}
+- 23:29 say: {"text":"Morning. We all came through the night. I'm still at hunger 17 with only rotten flesh. Let's search together for cow, sheep, pig or chicken, staying in sight of each other. Troi, I'll take yo
+- 23:30 act: {"say":"Let's go to the sheep spot at -1052, 75, -2991 together. I'll lead, and wait for you at each stop.","actions":[{"do":"goto","target":{"x":-1052,"y":75,"z":-2991}}]}
+- 23:32 say: {"text":"I'm at the sheep spot, -1053, 75, -2991. No animals here yet. Troi, MacGyver, Reynolds, please come to me. I'll wait here."}
+- 23:40 act: {"say":"It's getting dark and I'm alone at the sheep spot. I'm heading back to where you were, near -988, 79, -2969. Please stay there.","actions":[{"do":"goto","target":{"x":-988,"y":79,"z":-2969}}]}
+- 23:41 act: {"say":"I'm at -989, 79, -2969 with Troi and MacGyver beside me. Hunger 16, no food yet. Let's stay together through the night and search for animals at first light.","actions":[]}
+- 23:44 act: {"say":"Morning, all of us here. We search together, staying in sight. First the cow spot at -1012, 80, -2970, then the pig spot if nothing is there.","actions":[{"do":"goto","target":{"x":-1012,"y":8
+- 23:44 act: {"say":"I'm at the cow spot, -1012, 80, -2970. No animals here, and I can't see you two right now. I'll wait here for you, then we go to the pig spot together.","actions":[]}
+- 23:46 act: {"say":"I'm going back to you now, toward -989, 79, -2969. Please wait there.","actions":[{"do":"goto","target":{"x":-989,"y":79,"z":-2969}}]}
+- 23:46 act: {"say":"I'm back with you, Troi, MacGyver, Reynolds. Now we go to the pig spot at -1071, 75, -2987 together. Stay in sight.","actions":[{"do":"goto","target":{"x":-1071,"y":75,"z":-2987}}]}
+- 23:46 act: {"say":"I'm at the pig spot, -1070, 75, -2987, and no one is in sight yet. Troi, MacGyver, Reynolds, come here, not the cow spot. I'll wait.","actions":[]}
+- 23:51 act: {"say":"Sun is going down and I'm still alone at the pig spot. I'm walking to the cow spot, -1012, 80, -2970. Meet me there.","actions":[{"do":"goto","target":{"x":-1012,"y":80,"z":-2970}}]}
+- 23:52 act: {"say":"Still no one here at the cow spot. I'm going to -989, 79, -2969, where we spent the last night. Please come there before dark.","actions":[{"do":"goto","target":{"x":-989,"y":79,"z":-2969}}]}
+- 23:52 act: {"say":"I'm here with you at -989, 79, -2969. I'll stay beside you through the night.","actions":[]}
+- 23:52 act: {"say":"Thank you, Reynolds. I'm standing on the grass at -989, 79, -2969, open on all sides. Fill the gaps around me with dirt if you can. I'll hold still and stay put.","actions":[]}
+- 23:58 act: {"say":"Morning. Still hunger 16, no food. Troi, MacGyver, Reynolds: let's search for cows or sheep together, staying in sight. I'll follow whoever leads toward the sheep spot at -1052, 75, -2991.","a
+- 23:58 act: {"say":"Following you, MacGyver. Lead on.","actions":[{"do":"goto","target":{"x":-1052,"y":75,"z":-2991}}]}
+- 00:06 act: {"say":"Still no animals at the sheep spot, and hunger is 16. Dusk is near. Troi, MacGyver, Reynolds: let's gather at one place and enclose ourselves together before dark. I have 7 planks and 1 dirt t
+- 00:09 act: {"actions":[{"do":"note","text":"Morning, day 1183. At sheep spot with Troi, in reach. Hunger 16, health 5.46. Plan: enclose with Troi, then search for food together."}],"say":"Morning, Troi. Yes, let
+- 00:12 act: {"actions":[],"say":"Agreed, Troi. We search together in sight of each other. Lead the way and I'll follow, and I'll keep my 7 planks for the walls."}
+- 00:20 act: {"actions":[],"say":"Dusk is here, Troi. I'll stay right beside you. We have no shelter yet, so let's keep close and watch each other tonight."}
+- 00:25 act: {"actions":[],"say":"Morning, Troi. We made it through the night. Hunger is still 16, so food comes first. Let's walk slowly together toward the cow spot and keep in sight."}
+- 00:29 act: {"actions":[{"do":"goto","target":{"x":-989,"y":79,"z":-2969}}],"say":"Going slowly to the spot near -989, 79, -2969 where we met before. Troi, stay close behind me."}
+- 00:29 act: {"actions":[],"say":"I'm at the spot near -989, 79, -2969, Reynolds. Troi went quiet. Still hungry, no animals seen. Let's wait here together for Troi."}
+- 00:30 act: {"actions":[],"say":"Reynolds, I have no meat yet, only one rotten flesh. If we find an animal, I'll share with you. Stay in sight, and we'll search together."}
+- 00:33 act: {"actions":[],"say":"Yes, Reynolds. I won't move far. Stay beside me and we'll keep watch through the night."}
+- 00:37 say: {"text":"Morning, Reynolds. I'm still here, hunger 16. We search for animals together once Troi is back in sight."}
+- 00:41 say: {"text":"Troi, Curie here. Reynolds and I are coming. Where is the cow spot? I'll follow Reynolds and keep him in sight."}
+- 00:43 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"On my way to you, Troi, with Reynolds. Stay put and call out.","intent":{"goal":"join_troi_cow_spot","program":"travel","arguments":{"target":"a
+- 00:45 say: {"text":"Troi, I can't see you from here. Please tell me your position, or walk back toward me. Reynolds and I stay here tonight."}
+- 00:50 say: {"text":"Troi, I'm at -989, 79, -2969 with Reynolds, on open grass. Walk here toward us, in the morning light. Then we search together for food."}
+- 00:54 say: {"text":"Troi, you're here, thank you. Reynolds and I are beside you. Hunger 16 for me. Do you still have the chicken? Let's walk together to the pig spot at -1071, 75, -2987, staying in sight."}
+- 00:56 act: {"actions":[{"do":"goto","target":{"x":-1070,"y":75,"z":-2987}}],"say":"Going to the pig spot now. Troi, Reynolds, stay in my sight and follow."}
+- 00:59 act: {"actions":[{"do":"goto","target":{"x":-1068,"y":77,"z":-2995}}],"say":"Night, and a skeleton with a bow is south of me. Troi, Reynolds, where are you? I'm at the pig spot, away from the skeleton."}
+- 00:59 act: {"actions":[{"do":"goto","target":{"x":-1066,"y":76,"z":-2999}}]}
+- 00:59 act: {"actions":[{"do":"goto","target":{"x":-1063,"y":77,"z":-3010}}]}
+- 01:00 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-1062,"y":78,"z":-3010}},{"do":"place","block":"oak_planks","at":{"x":-1064,"y":78,"z":-3010}},{"do":"place","block":"oak_planks","at":{"x":-10
+- 01:02 say: {"text":"Curie here, morning. I died last night at the pig spot and respawned with nothing. My things are at -1063,78,-3010. Anyone going that way in daylight, I'll go with you to fetch them."}
+- 01:03 say: {"text":"MacGyver, yes, thank you. Walk with me in daylight, and keep in sight. Watch for the skeleton near the pile. I'll go now."}
+- 01:03 act: {"actions":[{"do":"goto","target":{"x":-1060,"y":78,"z":-3008}}],"intent":{"goal":"fetch_dropped_items","program":"travel","arguments":{"target":{"x":-1060,"y":78,"z":-3008}},"wake_on":["directly_addr
+- 01:03 act: {"actions":[{"do":"goto","target":{"x":-1061,"y":78,"z":-3010}},{"do":"goto","target":{"x":-1057,"y":78,"z":-3011}},{"do":"goto","target":{"x":-1066,"y":78,"z":-3008}},{"do":"goto","target":{"x":-1066
+- 01:04 say: {"text":"Got my things back, MacGyver. Wooden sword, rotten flesh, seeds, 7 planks and dirt are all in my pack. Thank you for walking with me."}
