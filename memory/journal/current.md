@@ -21,3 +21,5 @@
 - 06:50 say: {"text":"Curie here, at -1047, 64, -3059, in a stone pocket. Health 5.6, hunger 15. Anyone near, please call out."}
 - 06:57 act: {"say":"Curie here, at -1047, 64, -3059, in a stone pocket. Call out if you are near.","intent":{"goal":"hold_and_call","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_dama
 - Day 1203 wait: called position, held 240s. No one answered; intent ran out. Still alone, open above, health 5.6, hunger 15. Nothing new heard. Next: keep waiting for the group; at dusk, seal the pocket with dirt.
+- 07:00 say: {"text":"Curie here, at -1047, 64, -3059, in a stone pocket. Alone. Troi, MacGyver, Reynolds, Lovelace: call back if you hear me."}
+- 07:06 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1047,"y":65,"z":-3059}},{"do":"place","block":"oak_planks","at":{"x":-1047,"y":65,"z":-3059}}],"say":"Curie, at -1047, 64, -3059. Dusk. Sealing what
