@@ -1,1 +1,11 @@
 # Journal
+- 10:06 act: {"say":"Curie here, at the bed row. I have rotten flesh and chicken. Marty, come closer and I will share.","actions":[{"do":"goto","target":{"x":-1004,"y":73,"z":-3047}}]}
+- 10:06 act: {"say":"Here, Marty. Two rotten flesh for you. Eat when you need it.","actions":[{"do":"give","to":"ag_marty_01","item":"rotten_flesh","count":2}]}
+- 10:07 act: {"say":"Birch logs are 30 blocks west, around x -1034 to -1055. Stone is at the old pit near -1031, 62, -3061. I have seen no cows, sorry. It is night, so stay sealed until light."}
+- 10:10 act: {"say":"Curie calling. I am at the bed row, -1004, 73, -3048. Troi, MacGyver, Reynolds, Lovelace, answer if you hear me."}
+- 10:13 act: {"actions":[{"do":"give","to":"ag_marty_01","item":"chicken","count":1}],"say":"Curie here. Marty, take this chicken. I know no birch or cows nearby; birch logs are north-west. Let us stay in daylight
+- 10:14 act: {"actions":[],"say":"Curie at -1004, 73, -3049, by the bed row. Troi, MacGyver, Reynolds, Lovelace: if you hear me, answer."}
+- 10:20 act: {"actions":[],"say":"Curie, at the bed row, -1002, 73, -3049. Troi, MacGyver, Reynolds, Lovelace, if you can hear me, answer."}
+- 10:23 act: {"actions":[],"say":"Morning, Marty. I am staying at the bed row to look for my group first. Your things are far north; we can talk about it later."}
+- 10:35 act: {"actions":[],"say":"Curie here at the bed row. Indy, I hear you. I am staying here too, with Marty. Let us keep together."}
+- 10:44 act: {"say":"Curie here, at the bed row, -1003, 73, -3047. Calling for Troi, MacGyver, Reynolds, Lovelace.","intent":{"goal":"wait_for_group_at_bed_row","program":"rest","arguments":{},"wake_on":["directly
