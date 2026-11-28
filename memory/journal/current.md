@@ -1,3 +1,13 @@
 # Journal
 - 08:49 act: {"say":"Curie here, at -1034, 68, -3061. I am looking for Troi, MacGyver, Reynolds or Lovelace."}
 - 08:58 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1034,"y":69,"z":-3061}}]}
+- 09:08 act: {"actions":[{"do":"unstick"}],"say":"Curie here, at -1034,66,-3061. Troi, MacGyver, Reynolds, Lovelace, if you hear me, answer."}
+- 09:08 act: {"actions":[{"do":"break","at":{"x":-1033,"y":66,"z":-3061}},{"do":"break","at":{"x":-1033,"y":67,"z":-3061}}],"say":"I am in a stone pit. I am digging out to the east."}
+- 09:08 act: {"actions":[{"do":"unstick"}]}
+- 09:09 act: {"actions":[{"do":"break","at":{"x":-1034,"y":66,"z":-3060}},{"do":"break","at":{"x":-1034,"y":66,"z":-3062}},{"do":"break","at":{"x":-1035,"y":65,"z":-3061}}]}
+- 09:09 act: {"actions":[{"do":"unstick"}]}
+- 09:10 act: {"actions":[{"do":"break","at":{"x":-1033,"y":65,"z":-3061}},{"do":"break","at":{"x":-1033,"y":65,"z":-3060}},{"do":"break","at":{"x":-1034,"y":65,"z":-3060}},{"do":"break","at":{"x":-1034,"y":65,"z":
+- 09:10 act: {"actions":[{"do":"goto","target":{"x":-1036,"y":66,"z":-3060}}]}
+- 09:10 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-1038,"y":68,"z":-3058}}]}
+- 09:10 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1034,"y":66,"z":-3061}},{"do":"unstick"}]}
+- 09:12 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1032,"y":64,"z":-3061}}],"say":"Dusk is coming. I am sealing the top of this pit with dirt."}
