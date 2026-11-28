@@ -14,3 +14,7 @@
 - 06:28 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1047,"y":67,"z":-3059}}]}
 - 06:28 act: {"say":"Marie, at -1047, 66, -3059. In a stone pocket, open above. Anyone near, call out."}
 - 06:32 act: {"say":"Marie, at -1047, 64, -3059. Still alone in a stone pocket. Call out if you are near."}
+- 06:37 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1047,"y":65,"z":-3059}}],"say":"Curie here, at -1047,64,-3059, alone in a stone pocket. If anyone is near, call out."}
+- 06:37 act: {"actions":[{"do":"break","at":{"x":-1046,"y":64,"z":-3059}}]}
+- 06:37 act: {"actions":[{"do":"goto","target":{"x":-1046,"y":64,"z":-3059}},{"do":"place","block":"dirt","at":{"x":-1046,"y":65,"z":-3059}}]}
+- 06:37 act: {"actions":[],"say":"Curie, at -1047,64,-3059, alone in a stone pocket, open above. Troi, MacGyver, Reynolds, Lovelace: if you are near, answer."}
