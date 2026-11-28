@@ -18,3 +18,6 @@
 - 09:22 act: {"actions":[{"do":"unstick"}]}
 - 09:29 act: {"actions":[{"do":"break","at":{"x":-1031,"y":63,"z":-3062}}]}
 - 09:29 act: {"actions":[{"do":"goto","target":{"x":-1031,"y":63,"z":-3062}}]}
+- 09:35 act: {"say":"Curie here, at -1031, 62, -3061, in a stone pit. Is anyone there? Please answer.","intent":{"goal":"climb_out_of_pit","program":"travel","arguments":{"target":{"x":-1034,"y":64,"z":-3062}},"wa
+- 09:39 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1034,"y":65,"z":-3061}}]}
+- 09:43 act: {"say":"Curie, still in the stone pit at -1034, 64, -3061. If you are near, call out."}
