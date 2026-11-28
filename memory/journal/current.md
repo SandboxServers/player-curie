@@ -9,3 +9,7 @@
 - 10:23 act: {"actions":[],"say":"Morning, Marty. I am staying at the bed row to look for my group first. Your things are far north; we can talk about it later."}
 - 10:35 act: {"actions":[],"say":"Curie here at the bed row. Indy, I hear you. I am staying here too, with Marty. Let us keep together."}
 - 10:44 act: {"say":"Curie here, at the bed row, -1003, 73, -3047. Calling for Troi, MacGyver, Reynolds, Lovelace.","intent":{"goal":"wait_for_group_at_bed_row","program":"rest","arguments":{},"wake_on":["directly
+- 10:46 act: {"say":"Curie here, at -1003, 73, -3047 by the bed row. Troi, MacGyver, Reynolds, Lovelace, call back if you hear me.","actions":[{"do":"goto","target":{"x":-1034,"y":73,"z":-3060}}],"intent":{"goal":
+- 10:46 act: {"say":"Curie at the birch, -1034, 71, -3060. Anyone of the group, answer me.","actions":[]}
+- Day 1215 midday: at birch -1034,71,-3060. Group still silent. Hunger 15, not eating. Waiting here to listen.
+- 10:57 act: {"say":"Curie building a shelter here for the night. If the group is near, call out.","actions":[],"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"di
