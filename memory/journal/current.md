@@ -5,3 +5,12 @@
 - 06:11 place dirt at -1048,68,-3059 failed ("changed nothing"). place dirt at -1047,67,-3059 failed ("target occupied"). So the walls on the sides are solid already; only the top gap is open.
 - Journal entry written. Wait loop ended by session supersede; still in the pit, not enclosed, no one near. Next: view, then call out and wait again.
 - Woke (waking 115). Could not reach the world's tools: the worker helper has no tools in this session, so I could not view, wait or act. Still at -1048,67,-3059 in the open pit. Will try again next waking.
+- 06:16 act: {"say":"Marie here, alone at -1048, 67, -3059. Night, no shelter yet. If anyone hears, call back.","actions":[{"do":"place","block":"dirt","at":"feet"}]}
+- 06:17 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}]}
+- 06:17 act: {"say":"Marie at -1048, 70, -3059. Standing on a dirt pillar, open above. Call back if you are near."}
+- 06:23 act: {"actions":[{"do":"unstick"}],"say":"Marie, at -1048, 67, -3059. I am stuck in a hole. Anyone near, please call out."}
+- 06:23 act: {"actions":[{"do":"break","at":{"x":-1047,"y":66,"z":-3059}},{"do":"break","at":{"x":-1047,"y":67,"z":-3059}}]}
+- 06:24 act: {"say":"Marie, at -1048, 66, -3059. Out of the hole now. Call out if you hear me."}
+- 06:28 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1047,"y":67,"z":-3059}}]}
+- 06:28 act: {"say":"Marie, at -1047, 66, -3059. In a stone pocket, open above. Anyone near, call out."}
+- 06:32 act: {"say":"Marie, at -1047, 64, -3059. Still alone in a stone pocket. Call out if you are near."}
