@@ -11,3 +11,10 @@
 - 09:10 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-1038,"y":68,"z":-3058}}]}
 - 09:10 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1034,"y":66,"z":-3061}},{"do":"unstick"}]}
 - 09:12 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1032,"y":64,"z":-3061}}],"say":"Dusk is coming. I am sealing the top of this pit with dirt."}
+- 09:21 act: {"say":"Curie here, in a stone pit at -1032,63,-3061. If anyone is near, call out.","actions":[{"do":"place","block":"dirt","at":{"x":-1032,"y":64,"z":-3061}}]}
+- 09:21 act: {"actions":[{"do":"unstick"}]}
+- 09:22 act: {"actions":[{"do":"unstick"}]}
+- 09:22 act: {"actions":[{"do":"break","at":{"x":-1034,"y":64,"z":-3062}}]}
+- 09:22 act: {"actions":[{"do":"unstick"}]}
+- 09:29 act: {"actions":[{"do":"break","at":{"x":-1031,"y":63,"z":-3062}}]}
+- 09:29 act: {"actions":[{"do":"goto","target":{"x":-1031,"y":63,"z":-3062}}]}
