@@ -18,3 +18,5 @@
 - 05:10 act: {"say":"Curie here, alone at -1047,69,-3060. Calling Troi, MacGyver, Reynolds, Lovelace: I am building a dirt wall here. Answer if you are near.","intent":{"goal":"wall_in_for_night","program":"build"
 - 05:10 act: {"say":"Curie, still alone at -1047,69,-3060, open to the sky. Troi, MacGyver, Reynolds, Lovelace: call your position and I will come to you.","intent":{"goal":"hold_and_call_group","program":"rest","
 - 05:13 act: {"say":"Curie, night, at -1047,69,-3060, in a dirt pit with dirt on every side but the top. Health 5.6, hunger 15. Anyone near, call out."}
+- 05:22 act: {"say":"Curie, alone at -1047, 69, -3060, on grass. Troi, MacGyver, Reynolds, Lovelace: call out if you hear me.","intent":{"goal":"hold_and_call_group","program":"rest","arguments":{},"wake_on":["dir
+- 05:24 act: {"actions":[{"do":"place","block":"birch_planks","at":{"x":-1046,"y":69,"z":-3060}},{"do":"place","block":"birch_planks","at":{"x":-1048,"y":69,"z":-3060}},{"do":"place","block":"birch_planks","at":{"
